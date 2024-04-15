@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search with Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map { height: 600px; }
+    </style>
+</head>
+<body>
+    <h1>Property Search with Leaflet</h1>
+    <form id="searchForm">
+        <label for="postalcode">Enter Postal Code:</label>
+        Postal Code<input type="text" id="postalcode" name="postalcode"><br>
+        Min Bed<input type="text" id="minbed" name="minbed"><br>
+        Max Bed<input type="text" id="maxbed" name="maxbed">
+        <button type="submit">Search</button>
+    </form>
+    <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([38.00, -97.00], 5);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var postalcode = document.getElementById('postalcode').value;
+            var minbed = document.getElementById('minbed').value;
+            var maxbed = document.getElementById('maxbed').value;
+            searchProperty(postalcode,minbed,maxbed);
+        });
+
+        function searchProperty(postalcode,minbed,maxbed) {
+            var url = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=' + postalcode + '&page=1&pagesize=10&minBeds='+minbed+'&maxBeds='+ maxbed+'';
+            var headers = {
+                'accept': 'application/json',
+                'apikey': 'a4d324d21df0261bafff9edb48364a25'
+            };
+
+            fetch(url, { headers: headers })
+                .then(response => response.json())
+                .then(data => {
+                    // Clear existing markers
+                    map.eachLayer(function (layer) {
+                        if (layer instanceof L.Marker) {
+                            map.removeLayer(layer);
+                        }
+                    });
+                    // Add markers for fetched data
+                    addMarkers(data);
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function addMarkers(data) {
+            for (var i = 0; i < data.property.length; i++) {
+                var property = data.property[i];
+                var marker = L.marker([property.location.latitude, property.location.longitude]).addTo(map);
+                marker.bindPopup(property.address.oneLine);
+            }
+        }
+    </script>
+</body>
+</html>
