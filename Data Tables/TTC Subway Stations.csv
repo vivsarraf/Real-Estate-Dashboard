@@ -1,210 +1,71 @@
-ID,Station,Category,Address,LAT,LON,CITY,Line,Grade,Ridership (2019[9] avg. weekday),Parking spaces[10],Accessible[12]
-1,Finch,TTC Subway Station,"	5600 Yonge Street
-Toronto, Ontario
-Canada",43°46?50?N,79°24?53?W,Toronto,1,Underground,102025,"3,227[13]",Yes
-2,North York Centre,TTC Subway Station,"	5102 Yonge Street
-Toronto, Ontario
-Canada",43°46?06?N,79°24?46?W,Toronto,1,Underground,31471,0,Yes
-3,Sheppard–Yonge,TTC Subway Station,"	20 Sheppard Avenue West
-Toronto, Ontario
-Canada",43°45?41?N,79°24?39?W,Toronto,"1,4",Underground,134076,0,Yes
-4,York Mills,TTC Subway Station,"	4015 Yonge Street
-Toronto, Ontario
-Canada",43°44?39?N,79°24?24?W,Toronto,1,Underground,28461,0,Yes
-5,Lawrence,TTC Subway Station,"	3101 Yonge Street
-Toronto, Ontario
-Canada",43°43?30?N,79°24?8?W,Toronto,1,Underground,28041,0,No
-6,Eglinton,TTC Subway Station,"	2190 Yonge Street
-Toronto, Ontario
-Canada",43°42?21?N,79°23?54?W,Toronto,1,Underground,76903,0,Yes
-7,Davisville,TTC Subway Station,"	1900 Yonge Street
-Toronto, Ontario
-Canada",43°41?52?N,79°23?50?W,Toronto,1,Surface,27128,0,Yes
-8,St. Clair,TTC Subway Station,"15 St. Clair Avenue East
-Toronto, Ontario
-Canada",43°41?16?N,79°23?35?W,Toronto,1,Underground,38358,0,Yes
-9,Summerhill,TTC Subway Station,"	16 Shaftesbury Avenue
-Toronto, Ontario
-Canada",43°40?56?N,79°23?27?W,Toronto,1,Underground,6381,0,No
-10,Rosedale,TTC Subway Station,"7 Crescent Road
-Toronto, Ontario
-Canada",43°40?37?N,79°23?20?W,Toronto,1,Surface,8543,0,No
-11,Bloor–Yonge,TTC Subway Station,"	20 Bloor Street East,
-Toronto, Ontario
-Canada",43°40?16?N,79°23?09?W,Toronto,"1,2",Underground,456301,0,Yes
-12,Wellesley,TTC Subway Station,"	16 Wellesley Street East
-Toronto, Ontario
-Canada",43°39?55?N,79°23?02?W,Toronto,1,Underground,21571,0,Yes
-13,College,TTC Subway Station,"	3 Carlton Street
-Toronto, Ontario
-Canada",43°39?41?N,79°22?59?W,Toronto,1,Underground,56805,0,No
-14,Dundas,TTC Subway Station,"	3 Dundas Street East
-Toronto, Ontario
-Canada",43°39?23?N,79°22?51?W,Toronto,1,Underground,78377,0,Yes
-15,Queen,TTC Subway Station,"	3 Queen Street East
-Toronto, Ontario
-Canada",43°39?09?N,79°22?45?W,Toronto,1,Underground,53439,0,Yes
-16,King,TTC Subway Station,"	3 King Street East,
-Toronto, Ontario
-Canada",43°38?57?N,79°22?40?W,Toronto,1,Underground,75784,0,No
-17,Union,TTC Subway Station,"	55 Front Street West,
-Toronto, Ontario
-Canada",43°38?44?N,79°22?50?W,Toronto,1,Underground,151463,0,Yes
-18,St. Andrew,TTC Subway Station,"	173 King Street West,
-Toronto, Ontario
-Canada",43°38?52?N,79°23?05?W,Toronto,1,Underground,58550,0,Yes
-19,Osgoode,TTC Subway Station,"181 Queen Street West
-Toronto, Ontario
-Canada",43°39?03?N,79°23?12?W,Toronto,1,Underground,29066,0,Yes
-20,St. Patrick,TTC Subway Station,"	449 University Avenue
-Toronto, Ontario
-Canada",43°39?17?N,79°23?18?W,Toronto,1,Underground,30066,0,Yes
-21,Queen's Park,TTC Subway Station,"	129 College Street
-Toronto, Ontario
-Canada",43°39?36?N,79°23?26?W,Toronto,1,Underground,45627,0,Yes
-22,Museum,TTC Subway Station,"75 Queen's Park
-Toronto, Ontario
-Canada",43°40?02?N,79°23?37?W,Toronto,1,Underground,10865,0,No
-23,St. George,TTC Subway Station,"	139 St. George Street
-Toronto, Ontario
-Canada",43°40?05?N,79°23?59?W,Toronto,"1,2",Underground,260647,0,Yes
-24,Spadina,TTC Subway Station,"	6 Spadina Road
-Toronto, Ontario
-Canada",43°40?02?N,79°24?14?W,Toronto,"1,2",Underground,51944,0,Yes 
-25,Dupont,TTC Subway Station,"	263 Dupont Street
-Toronto, Ontario
-Canada",43°40?29?N,79°24?25?W,Toronto,1,Underground,11114,0,Yes
-26,St. Clair West,TTC Subway Station,"	370 St. Clair Avenue West
-Toronto, Ontario
-Canada",43°41?02?N,79°24?54?W,Toronto,1,Underground,34954,0,Yes
-27,Eglinton West,TTC Subway Station,"1300 Eglinton Avenue West
-Toronto, Ontario
-Canada",43°41?57?N,79°26?09?W,Toronto,1,Underground/surface,20259,0,Yes
-28,Glencairn,TTC Subway Station,"	785 Glencairn Avenue
-Toronto, Ontario
-Canada",43°42?32?N,79°26?27?W,Toronto,1,Surface,7462,0,No
-29,Lawrence West,TTC Subway Station,"655 Lawrence Avenue West
-Toronto, Ontario
-Canada",43°42?57?N,79°26?39?W,Toronto,1,Surface,22558,0,Yes
-30,Yorkdale,TTC Subway Station,"	Yorkdale Road at Yorkdale Service Road, Yorkdale Shopping Centre,
-Toronto, Ontario
-Canada",43°43?29?N,79°26?51?W,Toronto,1,Surface,29460,"1,010[14]",Yes
-31,Wilson,TTC Subway Station,"	570 Wilson Avenue
-Toronto, Ontario
-Canada",43°44?03?N,79°27?00?W,Toronto,1,Surface,23519,953[15],Yes
-32,Sheppard West,TTC Subway Station,"1035 Sheppard Avenue West
-Toronto, Ontario,
-Canada",43°44?58?N,79°27?43?W,Toronto,1,Underground,26671,632[16],Yes
-33,Downsview Park,TTC Subway Station,"1212 Sheppard Ave West,
-Toronto, Ontario
-Canada",43°45?14?N,79°28?42?W,Toronto,1,Underground,3090,0,Yes
-34,Finch West,TTC Subway Station,"3950 Keele Street
-Toronto, Ontario
-Canada",43°45?55?N,79°29?28?W,Toronto,1,Underground,20923,347[17],Yes
-35,York University,TTC Subway Station,"	120 Ian Macdonald Boulevard
-Toronto, Ontario
-Canada",43°46?27?N,79°29?59?W,Toronto,1,Underground,38084,0,Yes
-36,Pioneer Village,TTC Subway Station,"	185 Northwest Gate, Toronto, Ontario
-Canada",43°46?37?N,79°30?34?W,Toronto,1,Underground,16684,"1,881[18]",Yes
-37,Highway 407,TTC Subway Station,"	7332 Jane Street,
-Vaughan, Ontario
-Canada",43°47?02?N,79°31?23?W,Toronto,1,Underground,13956,550[19],Yes
-38,Vaughan,TTC Subway Station,"	3150 Highway 7 West
-Vaughan, Ontario
-Canada",43°47?39?N,79°31?39?W,Toronto,1,Underground,17146,900[b],Yes
-39,Kipling,TTC Subway Station,"	950 Kipling Avenue
-Toronto, Ontario
-Canada",43°38?14?N,79°32?10?W,Toronto,2,Surface,51824,"1,067[21]",Yes
-40,Islington,TTC Subway Station,"	1226 Islington Avenue
-Toronto, Ontario
-Canada",43°38?43?N,79°31?28?W,Toronto,2,Underground,42930,977[22],No
-41,Royal York,TTC Subway Station,"	955 Royal York Road
-Toronto, Ontario
-Canada",43°38?53?N,79°30?41?W,Toronto,2,Underground,21395,0,Yes
-42,Old Mill,TTC Subway Station,"	2672 Bloor Street West
-Toronto, Ontario
-Canada",43°39?00?N,79°29?41?W,Toronto,2,Underground/elevated,8356,0,No
-43,Jane,TTC Subway Station,"	15 Jane Street
-Toronto, Ontario
-Canada",43°38?59.7?N,79°29?02?W,Toronto,2,Underground,18552,0,Yes
-44,Runnymede,TTC Subway Station,"265 Runnymede Road
-Toronto, Ontario
-Canada",43°39?06?N,79°28?33?W,Toronto,2,Underground,21386,0,Yes
-45,High Park,TTC Subway Station,"	35 Quebec Avenue
-Toronto, Ontario
-Canada",43°39?14?N,79°28?00?W,Toronto,2,Underground/surface,14735,0,No
-46,Keele,TTC Subway Station,"	21 Keele Street
-Toronto, Ontario
-Canada",43°39?20?N,79°27?35?W,Toronto,2,Elevated,20300,187[23],Yes
-47,Dundas West,TTC Subway Station,"2365 Dundas Street West
-Toronto, Ontario
-Canada",43°39?25?N,79°27?10.5?W,Toronto,2,Underground,32471,0,Yes
-48,Lansdowne,TTC Subway Station,"	691 Lansdowne Avenue,
-Toronto, Ontario
-Canada",43°39?33?N,79°26?34?W,Toronto,2,Underground,18192,0,Yes
-49,Dufferin,TTC Subway Station,"1006 Dufferin Street,
-Toronto, Ontario
-Canada",43°39?36?N,79°26?08?W,Toronto,2,Underground,30442,0,Yes
-50,Ossington,TTC Subway Station,"746 Ossington Avenue,
-Toronto, Ontario
-Canada",43°39?44?N,79°25?36?W,Toronto,2,Underground,31316,0,Yes
-51,Christie,TTC Subway Station,"	5 Christie Street
-Toronto, Ontario
-Canada",43°39?51?N,79°25?06?W,Toronto,2,Underground,12215,0,No
-52,Bathurst,TTC Subway Station,"819 Bathurst Street
-Toronto, Ontario
-Canada",43°39?58?N,79°24?40?W,Toronto,2,Underground,33248,0,Yes
-53,Bay,TTC Subway Station,"	1240 Bay Street
-Toronto, Ontario
-Canada",43°40?13?N,79°23?24?W,Toronto,2,Underground,34309,0,Yes
-54,Sherbourne,TTC Subway Station,"	633 Sherbourne Street,
-Toronto, Ontario
-Canada",43°40?20?N,79°22?35?W,Toronto,2,Underground,30236,0,Yes
-55,Castle Frank,TTC Subway Station,"600 Bloor Street East
-Toronto, Ontario
-Canada",43°40?25?N,79°22?08?W,Toronto,2,Underground,8878,0,No
-56,Broadview,TTC Subway Station,"	769 Broadview Avenue
-Toronto, Ontario
-Canada",43°40?37?N,79°21?30?W,Toronto,2,Underground,35011,0,Yes
-57,Chester,TTC Subway Station,"22 Chester Avenue
-Toronto, Ontario
-Canada",43°40?42?N,79°21?09?W,Toronto,2,Underground,6470,0,Yes
-58,Pape,TTC Subway Station,"	743 Pape Avenue,
-Toronto, Ontario
-Canada",43°40?48?N,79°20?42?W,Toronto,2,Underground,30510,0,Yes
-59,Donlands,TTC Subway Station,"30 Donlands Avenue,
-Toronto, Ontario
-Canada",43°40?52?N,79°20?16?W,Toronto,2,Underground,11886,0,No
-60,Greenwood,TTC Subway Station,"	10 Linnsmore Crescent,
-Toronto, Ontario
-Canada",43°40?57?N,79°19?49?W,Toronto,2,Underground,12179,0,No
-61,Coxwell,TTC Subway Station,"355 Strathmore Boulevard
-Toronto, Ontario
-Canada",43°41?03?N,79°19?23?W,Toronto,2,Underground,16635,0,Yes
-62,Woodbine,TTC Subway Station,"	991 Woodbine Avenue
-Toronto, Ontario,
-Canada",43°41?11?N,79°18?46?W,Toronto,2,Underground,16083,0,Yes
-63,Main Street,TTC Subway Station,"	315 Main Street
-Toronto, Ontario
-Canada",43°41?20.5?N,79°18?06?W,Toronto,2,Underground,24380,0,Yes
-64,Victoria Park,TTC Subway Station,"	777 Victoria Park Avenue,
-Toronto, Ontario,
-Canada",43°41?42?N,79°17?19?W,Toronto,2,Surface,37656,173[24],Yes
-65,Warden,TTC Subway Station,"701 Warden Avenue,
-Toronto, Ontario
-Canada",43°42?41?N,79°16?47?W,Toronto,2,Surface,39024,"1,071[25]",No
-66,Kennedy,TTC Subway Station,"2455 Eglinton Avenue East
-Toronto, Ontario
-Canada",43°43?57?N,79°15?49?W,Toronto,2,Underground,113961,729[26],Yes
-67,Bayview,TTC Subway Station,"550 Sheppard Avenue East,
-Toronto, Ontario
-Canada",43°46?01?N,79°23?12?W,Toronto,4,Underground,8097,0,Yes
-68,Bessarion,TTC Subway Station,"731 Sheppard Avenue East,
-Toronto, Ontario
-Canada",43°46?09?N,79°22?35?W,Toronto,4,Underground,3290,0,Yes
-69,Leslie,TTC Subway Station,"	1209 Sheppard Avenue East
-Toronto, Ontario
-Canada",43°46?17?N,79°21?55?W,Toronto,4,Underground,5923,102[27],Yes
-70,Don Mills,TTC Subway Station,"	1700 Sheppard Avenue East
-Toronto, Ontario
-Canada",43°46?32?N,79°20?47?W,Toronto,4,Underground,42598,366[28],Yes
+ID,Station,Category,Address,CITY,Line,Grade,Ridership (2019[9] avg. weekday),Parking spaces[10],Accessible[12],LAT,LAT degree,LAT min,LAT seconds,LAT direction,LAT decimal,LON,LON degree,LON min,LON seconds,LON direction,LON decimal
+1,Finch,TTC Subway Station,"	5600 Yonge Street, Toronto, Ontario, Canada",Toronto,1,Underground,102025,"3,227[13]",Yes,43°46?50?N,43,46,50,N,43.78055556,79°24?53?W,79,24,53,W,79.41472222
+2,North York Centre,TTC Subway Station,"	5102 Yonge Street, Toronto, Ontario, Canada",Toronto,1,Underground,31471,0,Yes,43°46?06?N,43,46,6,N,43.76833333,79°24?46?W,79,24,46,W,79.41277778
+3,Sheppard–Yonge,TTC Subway Station,"	20 Sheppard Avenue West, Toronto, Ontario, Canada",Toronto,"1,4",Underground,134076,0,Yes,43°45?41?N,43,45,41,N,43.76138889,79°24?39?W,79,24,39,W,79.41083333
+4,York Mills,TTC Subway Station,"	4015 Yonge Street, Toronto, Ontario, Canada",Toronto,1,Underground,28461,0,Yes,43°44?39?N,43,44,39,N,43.74416667,79°24?24?W,79,24,24,W,79.40666667
+5,Lawrence,TTC Subway Station,"	3101 Yonge Street, Toronto, Ontario, Canada",Toronto,1,Underground,28041,0,No,43°43?30?N,43,43,30,N,43.725,79°24?8?W,79,24,8,W,79.40222222
+6,Eglinton,TTC Subway Station,"	2190 Yonge Street, Toronto, Ontario, Canada",Toronto,1,Underground,76903,0,Yes,43°42?21?N,43,42,21,N,43.70583333,79°23?54?W,79,23,54,W,79.39833333
+7,Davisville,TTC Subway Station,"	1900 Yonge Street, Toronto, Ontario, Canada",Toronto,1,Surface,27128,0,Yes,43°41?52?N,43,41,52,N,43.69777778,79°23?50?W,79,23,50,W,79.39722222
+8,St. Clair,TTC Subway Station,"15 St. Clair Avenue East, Toronto, Ontario, Canada",Toronto,1,Underground,38358,0,Yes,43°41?16?N,43,41,16,N,43.68777778,79°23?35?W,79,23,35,W,79.39305556
+9,Summerhill,TTC Subway Station,"	16 Shaftesbury Avenue, Toronto, Ontario, Canada",Toronto,1,Underground,6381,0,No,43°40?56?N,43,40,56,N,43.68222222,79°23?27?W,79,23,27,W,79.39083333
+10,Rosedale,TTC Subway Station,"7 Crescent Road, Toronto, Ontario, Canada",Toronto,1,Surface,8543,0,No,43°40?37?N,43,40,37,N,43.67694444,79°23?20?W,79,23,20,W,79.38888889
+11,Bloor–Yonge,TTC Subway Station,"	20 Bloor Street East,, Toronto, Ontario, Canada",Toronto,"1,2",Underground,456301,0,Yes,43°40?16?N,43,40,16,N,43.67111111,79°23?09?W,79,23,9,W,79.38583333
+12,Wellesley,TTC Subway Station,"	16 Wellesley Street East, Toronto, Ontario, Canada",Toronto,1,Underground,21571,0,Yes,43°39?55?N,43,39,55,N,43.66527778,79°23?02?W,79,23,2,W,79.38388889
+13,College,TTC Subway Station,"	3 Carlton Street, Toronto, Ontario, Canada",Toronto,1,Underground,56805,0,No,43°39?41?N,43,39,41,N,43.66138889,79°22?59?W,79,22,59,W,79.38305556
+14,Dundas,TTC Subway Station,"	3 Dundas Street East, Toronto, Ontario, Canada",Toronto,1,Underground,78377,0,Yes,43°39?23?N,43,39,23,N,43.65638889,79°22?51?W,79,22,51,W,79.38083333
+15,Queen,TTC Subway Station,"	3 Queen Street East, Toronto, Ontario, Canada",Toronto,1,Underground,53439,0,Yes,43°39?09?N,43,39,9,N,43.6525,79°22?45?W,79,22,45,W,79.37916667
+16,King,TTC Subway Station,"	3 King Street East,, Toronto, Ontario, Canada",Toronto,1,Underground,75784,0,No,43°38?57?N,43,38,57,N,43.64916667,79°22?40?W,79,22,40,W,79.37777778
+17,Union,TTC Subway Station,"	55 Front Street West,, Toronto, Ontario, Canada",Toronto,1,Underground,151463,0,Yes,43°38?44?N,43,38,44,N,43.64555556,79°22?50?W,79,22,50,W,79.38055556
+18,St. Andrew,TTC Subway Station,"	173 King Street West,, Toronto, Ontario, Canada",Toronto,1,Underground,58550,0,Yes,43°38?52?N,43,38,52,N,43.64777778,79°23?05?W,79,23,5,W,79.38472222
+19,Osgoode,TTC Subway Station,"181 Queen Street West, Toronto, Ontario, Canada",Toronto,1,Underground,29066,0,Yes,43°39?03?N,43,39,3,N,43.65083333,79°23?12?W,79,23,12,W,79.38666667
+20,St. Patrick,TTC Subway Station,"	449 University Avenue, Toronto, Ontario, Canada",Toronto,1,Underground,30066,0,Yes,43°39?17?N,43,39,17,N,43.65472222,79°23?18?W,79,23,18,W,79.38833333
+21,Queen's Park,TTC Subway Station,"	129 College Street, Toronto, Ontario, Canada",Toronto,1,Underground,45627,0,Yes,43°39?36?N,43,39,36,N,43.66,79°23?26?W,79,23,26,W,79.39055556
+22,Museum,TTC Subway Station,"75 Queen's Park, Toronto, Ontario, Canada",Toronto,1,Underground,10865,0,No,43°40?02?N,43,40,2,N,43.66722222,79°23?37?W,79,23,37,W,79.39361111
+23,St. George,TTC Subway Station,"	139 St. George Street, Toronto, Ontario, Canada",Toronto,"1,2",Underground,260647,0,Yes,43°40?05?N,43,40,5,N,43.66805556,79°23?59?W,79,23,59,W,79.39972222
+24,Spadina,TTC Subway Station,"	6 Spadina Road, Toronto, Ontario, Canada",Toronto,"1,2",Underground,51944,0,Yes ,43°40?02?N,43,40,2,N,43.66722222,79°24?14?W,79,24,14,W,79.40388889
+25,Dupont,TTC Subway Station,"	263 Dupont Street, Toronto, Ontario, Canada",Toronto,1,Underground,11114,0,Yes,43°40?29?N,43,40,29,N,43.67472222,79°24?25?W,79,24,25,W,79.40694444
+26,St. Clair West,TTC Subway Station,"	370 St. Clair Avenue West, Toronto, Ontario, Canada",Toronto,1,Underground,34954,0,Yes,43°41?02?N,43,41,2,N,43.68388889,79°24?54?W,79,24,54,W,79.415
+27,Eglinton West,TTC Subway Station,"1300 Eglinton Avenue West, Toronto, Ontario, Canada",Toronto,1,Underground/surface,20259,0,Yes,43°41?57?N,43,41,57,N,43.69916667,79°26?09?W,79,26,9,W,79.43583333
+28,Glencairn,TTC Subway Station,"	785 Glencairn Avenue, Toronto, Ontario, Canada",Toronto,1,Surface,7462,0,No,43°42?32?N,43,42,32,N,43.70888889,79°26?27?W,79,26,27,W,79.44083333
+29,Lawrence West,TTC Subway Station,"655 Lawrence Avenue West, Toronto, Ontario, Canada",Toronto,1,Surface,22558,0,Yes,43°42?57?N,43,42,57,N,43.71583333,79°26?39?W,79,26,39,W,79.44416667
+30,Yorkdale,TTC Subway Station,"	Yorkdale Road at Yorkdale Service Road, Yorkdale Shopping Centre,, Toronto, Ontario, Canada",Toronto,1,Surface,29460,"1,010[14]",Yes,43°43?29?N,43,43,29,N,43.72472222,79°26?51?W,79,26,51,W,79.4475
+31,Wilson,TTC Subway Station,"	570 Wilson Avenue, Toronto, Ontario, Canada",Toronto,1,Surface,23519,953[15],Yes,43°44?03?N,43,44,3,N,43.73416667,79°27?00?W,79,27,0,W,79.45
+32,Sheppard West,TTC Subway Station,"1035 Sheppard Avenue West, Toronto, Ontario,, Canada",Toronto,1,Underground,26671,632[16],Yes,43°44?58?N,43,44,58,N,43.74944444,79°27?43?W,79,27,43,W,79.46194444
+33,Downsview Park,TTC Subway Station,"1212 Sheppard Ave West,, Toronto, Ontario, Canada",Toronto,1,Underground,3090,0,Yes,43°45?14?N,43,45,14,N,43.75388889,79°28?42?W,79,28,42,W,79.47833333
+34,Finch West,TTC Subway Station,"3950 Keele Street, Toronto, Ontario, Canada",Toronto,1,Underground,20923,347[17],Yes,43°45?55?N,43,45,55,N,43.76527778,79°29?28?W,79,29,28,W,79.49111111
+35,York University,TTC Subway Station,"	120 Ian Macdonald Boulevard, Toronto, Ontario, Canada",Toronto,1,Underground,38084,0,Yes,43°46?27?N,43,46,27,N,43.77416667,79°29?59?W,79,29,59,W,79.49972222
+36,Pioneer Village,TTC Subway Station,"	185 Northwest Gate, Toronto, Ontario, Canada",Toronto,1,Underground,16684,"1,881[18]",Yes,43°46?37?N,43,46,37,N,43.77694444,79°30?34?W,79,30,34,W,79.50944444
+37,Highway 407,TTC Subway Station,"	7332 Jane Street,, Vaughan, Ontario, Canada",Toronto,1,Underground,13956,550[19],Yes,43°47?02?N,43,47,2,N,43.78388889,79°31?23?W,79,31,23,W,79.52305556
+38,Vaughan,TTC Subway Station,"	3150 Highway 7 West, Vaughan, Ontario, Canada",Toronto,1,Underground,17146,900[b],Yes,43°47?39?N,43,47,39,N,43.79416667,79°31?39?W,79,31,39,W,79.5275
+39,Kipling,TTC Subway Station,"	950 Kipling Avenue, Toronto, Ontario, Canada",Toronto,2,Surface,51824,"1,067[21]",Yes,43°38?14?N,43,38,14,N,43.63722222,79°32?10?W,79,32,10,W,79.53611111
+40,Islington,TTC Subway Station,"	1226 Islington Avenue, Toronto, Ontario, Canada",Toronto,2,Underground,42930,977[22],No,43°38?43?N,43,38,43,N,43.64527778,79°31?28?W,79,31,28,W,79.52444444
+41,Royal York,TTC Subway Station,"	955 Royal York Road, Toronto, Ontario, Canada",Toronto,2,Underground,21395,0,Yes,43°38?53?N,43,38,53,N,43.64805556,79°30?41?W,79,30,41,W,79.51138889
+42,Old Mill,TTC Subway Station,"	2672 Bloor Street West, Toronto, Ontario, Canada",Toronto,2,Underground/elevated,8356,0,No,43°39?00?N,43,39,0,N,43.65,79°29?41?W,79,29,41,W,79.49472222
+43,Jane,TTC Subway Station,"	15 Jane Street, Toronto, Ontario, Canada",Toronto,2,Underground,18552,0,Yes,43°38?59.7?N,43,38,59.7,N,43.64991667,79°29?02?W,79,29,2,W,79.48388889
+44,Runnymede,TTC Subway Station,"265 Runnymede Road, Toronto, Ontario, Canada",Toronto,2,Underground,21386,0,Yes,43°39?06?N,43,39,6,N,43.65166667,79°28?33?W,79,28,33,W,79.47583333
+45,High Park,TTC Subway Station,"	35 Quebec Avenue, Toronto, Ontario, Canada",Toronto,2,Underground/surface,14735,0,No,43°39?14?N,43,39,14,N,43.65388889,79°28?00?W,79,28,0,W,79.46666667
+46,Keele,TTC Subway Station,"	21 Keele Street, Toronto, Ontario, Canada",Toronto,2,Elevated,20300,187[23],Yes,43°39?20?N,43,39,20,N,43.65555556,79°27?35?W,79,27,35,W,79.45972222
+47,Dundas West,TTC Subway Station,"2365 Dundas Street West, Toronto, Ontario, Canada",Toronto,2,Underground,32471,0,Yes,43°39?25?N,43,39,25,N,43.65694444,79°27?10.5?W,79,27,10.5,W,79.45291667
+48,Lansdowne,TTC Subway Station,"	691 Lansdowne Avenue,, Toronto, Ontario, Canada",Toronto,2,Underground,18192,0,Yes,43°39?33?N,43,39,33,N,43.65916667,79°26?34?W,79,26,34,W,79.44277778
+49,Dufferin,TTC Subway Station,"1006 Dufferin Street,, Toronto, Ontario, Canada",Toronto,2,Underground,30442,0,Yes,43°39?36?N,43,39,36,N,43.66,79°26?08?W,79,26,8,W,79.43555556
+50,Ossington,TTC Subway Station,"746 Ossington Avenue,, Toronto, Ontario, Canada",Toronto,2,Underground,31316,0,Yes,43°39?44?N,43,39,44,N,43.66222222,79°25?36?W,79,25,36,W,79.42666667
+51,Christie,TTC Subway Station,"	5 Christie Street, Toronto, Ontario, Canada",Toronto,2,Underground,12215,0,No,43°39?51?N,43,39,51,N,43.66416667,79°25?06?W,79,25,6,W,79.41833333
+52,Bathurst,TTC Subway Station,"819 Bathurst Street, Toronto, Ontario, Canada",Toronto,2,Underground,33248,0,Yes,43°39?58?N,43,39,58,N,43.66611111,79°24?40?W,79,24,40,W,79.41111111
+53,Bay,TTC Subway Station,"	1240 Bay Street, Toronto, Ontario, Canada",Toronto,2,Underground,34309,0,Yes,43°40?13?N,43,40,13,N,43.67027778,79°23?24?W,79,23,24,W,79.39
+54,Sherbourne,TTC Subway Station,"	633 Sherbourne Street,, Toronto, Ontario, Canada",Toronto,2,Underground,30236,0,Yes,43°40?20?N,43,40,20,N,43.67222222,79°22?35?W,79,22,35,W,79.37638889
+55,Castle Frank,TTC Subway Station,"600 Bloor Street East, Toronto, Ontario, Canada",Toronto,2,Underground,8878,0,No,43°40?25?N,43,40,25,N,43.67361111,79°22?08?W,79,22,8,W,79.36888889
+56,Broadview,TTC Subway Station,"	769 Broadview Avenue, Toronto, Ontario, Canada",Toronto,2,Underground,35011,0,Yes,43°40?37?N,43,40,37,N,43.67694444,79°21?30?W,79,21,30,W,79.35833333
+57,Chester,TTC Subway Station,"22 Chester Avenue, Toronto, Ontario, Canada",Toronto,2,Underground,6470,0,Yes,43°40?42?N,43,40,42,N,43.67833333,79°21?09?W,79,21,9,W,79.3525
+58,Pape,TTC Subway Station,"	743 Pape Avenue,, Toronto, Ontario, Canada",Toronto,2,Underground,30510,0,Yes,43°40?48?N,43,40,48,N,43.68,79°20?42?W,79,20,42,W,79.345
+59,Donlands,TTC Subway Station,"30 Donlands Avenue,, Toronto, Ontario, Canada",Toronto,2,Underground,11886,0,No,43°40?52?N,43,40,52,N,43.68111111,79°20?16?W,79,20,16,W,79.33777778
+60,Greenwood,TTC Subway Station,"	10 Linnsmore Crescent,, Toronto, Ontario, Canada",Toronto,2,Underground,12179,0,No,43°40?57?N,43,40,57,N,43.6825,79°19?49?W,79,19,49,W,79.33027778
+61,Coxwell,TTC Subway Station,"355 Strathmore Boulevard, Toronto, Ontario, Canada",Toronto,2,Underground,16635,0,Yes,43°41?03?N,43,41,3,N,43.68416667,79°19?23?W,79,19,23,W,79.32305556
+62,Woodbine,TTC Subway Station,"	991 Woodbine Avenue, Toronto, Ontario,, Canada",Toronto,2,Underground,16083,0,Yes,43°41?11?N,43,41,11,N,43.68638889,79°18?46?W,79,18,46,W,79.31277778
+63,Main Street,TTC Subway Station,"	315 Main Street, Toronto, Ontario, Canada",Toronto,2,Underground,24380,0,Yes,43°41?20.5?N,43,41,20.5,N,43.68902778,79°18?06?W,79,18,6,W,79.30166667
+64,Victoria Park,TTC Subway Station,"	777 Victoria Park Avenue,, Toronto, Ontario,, Canada",Toronto,2,Surface,37656,173[24],Yes,43°41?42?N,43,41,42,N,43.695,79°17?19?W,79,17,19,W,79.28861111
+65,Warden,TTC Subway Station,"701 Warden Avenue,, Toronto, Ontario, Canada",Toronto,2,Surface,39024,"1,071[25]",No,43°42?41?N,43,42,41,N,43.71138889,79°16?47?W,79,16,47,W,79.27972222
+66,Kennedy,TTC Subway Station,"2455 Eglinton Avenue East, Toronto, Ontario, Canada",Toronto,2,Underground,113961,729[26],Yes,43°43?57?N,43,43,57,N,43.7325,79°15?49?W,79,15,49,W,79.26361111
+67,Bayview,TTC Subway Station,"550 Sheppard Avenue East,, Toronto, Ontario, Canada",Toronto,4,Underground,8097,0,Yes,43°46?01?N,43,46,1,N,43.76694444,79°23?12?W,79,23,12,W,79.38666667
+68,Bessarion,TTC Subway Station,"731 Sheppard Avenue East,, Toronto, Ontario, Canada",Toronto,4,Underground,3290,0,Yes,43°46?09?N,43,46,9,N,43.76916667,79°22?35?W,79,22,35,W,79.37638889
+69,Leslie,TTC Subway Station,"	1209 Sheppard Avenue East, Toronto, Ontario, Canada",Toronto,4,Underground,5923,102[27],Yes,43°46?17?N,43,46,17,N,43.77138889,79°21?55?W,79,21,55,W,79.36527778
+70,Don Mills,TTC Subway Station,"	1700 Sheppard Avenue East, Toronto, Ontario, Canada",Toronto,4,Underground,42598,366[28],Yes,43°46?32?N,43,46,32,N,43.77555556,79°20?47?W,79,20,47,W,79.34638889
