@@ -27,7 +27,7 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <style>
-        #map { height: 500px; }
+        #map { height:650px; width: 1075px;}
     </style>
   </head>
   
@@ -39,10 +39,16 @@
 		<div class="container">
 			<div class="grid grid-column-2 ">
 				<div class="column2">
+                    <h1>Property Search with Leaflet</h1>
+                    <form id="searchForm">
+                        <label for="postalcode">Enter Postal Code:</label>
+                        Postal Code<input type="text" id="postalcode" name="postalcode"><br>
+                        Min Bed<input type="text" id="minbed" name="minbed"><br>
+                        Max Bed<input type="text" id="maxbed" name="maxbed">
+                        <button type="submit">Search</button>
+                    </form>
 					</div>
-				<div class="column1">
-					
-					
+				<div class="column1">	
 						<form action="/" method="Get">
 							<div class="blog-search form d-flex search-form">
 								<input type="search" class="form-control" placeholder="Enter City" name="search" required="required">
@@ -74,15 +80,7 @@
                     <option>Before 2010</option>
                   </select>
                   <select id="sel4">
-                    <option>All Cities</option>
-                    <option>Brampton</option>
-                    <option>East York</option>
-                    <option>Etobicoke</option>
-                    <option>Mississauga</option>
-                    <option>North York</option>
-                    <option>Scarborough</option>
                     <option>Toronto</option>
-                    <option>York</option>
                   </select>
                   <select id="sel5">
                     <option>All Bedrooms</option>
@@ -129,14 +127,7 @@
                           <img class="img-fluid" src="assets/images/background.png" alt="">
                           <div class="box-content">
 
-                              <h1>Property Search with Leaflet</h1>
-                              <form id="searchForm">
-                                  <label for="postalcode">Enter Postal Code:</label>
-                                  Postal Code<input type="text" id="postalcode" name="postalcode"><br>
-                                  Min Bed<input type="text" id="minbed" name="minbed"><br>
-                                  Max Bed<input type="text" id="maxbed" name="maxbed">
-                                  <button type="submit">Search</button>
-                              </form>
+
 
                               <div id="map"></div>
                               <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
