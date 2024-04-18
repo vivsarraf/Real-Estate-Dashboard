@@ -26,16 +26,13 @@
     <!-- //web fonts -->
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
-
+    <style>
+        #map { height: 500px; }
+    </style>
   </head>
   
    
 <body>
-
-
-<!-- 
-Date of last update (if possible) -->
-
 
 <section class="form-12" id="home">
 	<div class="form-12-content">
@@ -127,92 +124,69 @@ Date of last update (if possible) -->
           <h3 class="head">Property Map</h3>
           <p class="my-3 head "> This should be where the map goes.</p>
         </div>
-              <div class="row mt-3 pt-5">
-                  <div class="col-md-4 col-sm-6">
+
                       <div class="box16">
-                          <img class="img-fluid" src="assets/images/g1.jpg" alt="">
+                          <img class="img-fluid" src="assets/images/background.png" alt="">
                           <div class="box-content">
-                              <h3 class="title">Toronto</h3>
-                              <span class="post">2 Listings</span>
-                             
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6">
-                      <div class="box16">
-                          <img class="img-fluid" src="assets/images/g2.jpg" alt="">
-                          <div class="box-content">
-                              <h3 class="title">Toronto</h3>
-                              <span class="post">2 Listings</span>
-                             
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 mt-lg-0 pt-lg-0 mt-md-4 pt-md-2">
-                      <div class="box16">
-                          <img class="img-fluid" src="assets/images/g3.jpg" alt="">
-                          <div class="box-content">
-                              <h3 class="title">Toronto</h3>
-                              <span class="post">2 Listings</span>
-                             
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 mt-md-4 pt-md-2">
-                      <div class="box16">
-                          <img class="img-fluid" src="assets/images/g4.jpg" alt="">
-                          <div class="box-content">
-                              <h3 class="title">Toronto</h3>
-                              <span class="post">2 Listings</span>
-                              
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 mt-md-4 pt-md-2">
-                      <div class="box16">
-                          <img class="img-fluid" src="assets/images/g5.jpg" alt="">
-                          <div class="box-content">
-                              <h3 class="title">Map</h3>
-                              <span class="post">2 Listings</span>
 
+                              <h1>Property Search with Leaflet</h1>
+                              <form id="searchForm">
+                                  <label for="postalcode">Enter Postal Code:</label>
+                                  Postal Code<input type="text" id="postalcode" name="postalcode"><br>
+                                  Min Bed<input type="text" id="minbed" name="minbed"><br>
+                                  Max Bed<input type="text" id="maxbed" name="maxbed">
+                                  <button type="submit">Search</button>
+                              </form>
 
-
-                              <!-- The div that holds our map -->
-                              <div id="map-id"></div>
-                              <!-- Our JavaScript file -->
-                              <script type="text/javascript" src="assets/js/logic.js"></script>
-
-
-
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 mt-md-4 pt-md-2">
-                      <div class="box16">
-                          <img class="img-fluid" src="assets/images/g6.jpg" alt="">
-                          <div class="box-content">
-                              <h3 class="title">Toronto</h3>
-                              <span class="post">2 Listings</span>
-                             
-                          </div>
-                      </div>
-                  </div>
-
-                
-
-                
-
-
-              </div>
-          </div>
+                              <div id="map"></div>
+                              <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+                              <script>
+                                  var map = L.map('map').setView([38.00, -97.00], 5);
+                                  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                  }).addTo(map);
+                          
+                                  document.getElementById('searchForm').addEventListener('submit', function(event) {
+                                      event.preventDefault();
+                                      var postalcode = document.getElementById('postalcode').value;
+                                      var minbed = document.getElementById('minbed').value;
+                                      var maxbed = document.getElementById('maxbed').value;
+                                      searchProperty(postalcode,minbed,maxbed);
+                                  });
+                          
+                                  function searchProperty(postalcode,minbed,maxbed) {
+                                      var url = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=' + postalcode + '&page=1&pagesize=10&minBeds='+minbed+'&maxBeds='+ maxbed+'';
+                                      var headers = {
+                                          'accept': 'application/json',
+                                          'apikey': 'a4d324d21df0261bafff9edb48364a25'
+                                      };
+                          
+                                      fetch(url, { headers: headers })
+                                          .then(response => response.json())
+                                          .then(data => {
+                                              // Clear existing markers
+                                              map.eachLayer(function (layer) {
+                                                  if (layer instanceof L.Marker) {
+                                                      map.removeLayer(layer);
+                                                  }
+                                              });
+                                              // Add markers for fetched data
+                                              addMarkers(data);
+                                          })
+                                          .catch(error => console.error('Error:', error));
+                                  }
+                          
+                                  function addMarkers(data) {
+                                      for (var i = 0; i < data.property.length; i++) {
+                                          var property = data.property[i];
+                                          var marker = L.marker([property.location.latitude, property.location.longitude]).addTo(map);
+                                          marker.bindPopup(property.address.oneLine);
+                                      }
+                                  }
+                              </script>
+        </div>                       
      </div>
    </section>
-
-
-
-
-
-
 
 
 <section class="grids-4" id="properties">
@@ -317,10 +291,6 @@ Date of last update (if possible) -->
            </div>
     </div>
 </section>
-
-
-
-
 
 
 </body>
