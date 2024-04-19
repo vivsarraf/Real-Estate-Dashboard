@@ -15,9 +15,7 @@ mongo = PyMongo(app)
 # Defining a route to get all properties 
 @app.route('/')
 def index():
-    return (
-        f"/api/subway_stations"          
-             )
+    return render_template("index.html")
 
 @app.route('/api/subway_stations')
 def get_SubwayStations():
