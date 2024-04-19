@@ -1,53 +1,35 @@
+# Import necessary libraries
+from flask import Flask, jsonify, render_template
+from flask_pymongo import PyMongo 
 import json
-import pymongo
-from pymongo import MongoClient
-from flask import Flask
+from bson import json_util, regex
+import re
 
 
-# Use flask_pymongo to set up mongo connection
+# Creating a Flask application instance
 app = Flask(__name__)
-client = pymongo.MongoClient("mongodb://localhost:27017")
-db = client['property_information_db']
-collection = db['ttc_subway_stations']
+# Setting up the connection to a MongoDB database
+app.config["MONGO_URI"] = "mongodb://localhost:27017/real_estate_project_db"
+mongo = PyMongo(app)
 
-@app.route("/")
-def stations():
-    documents = collection.find()
-    response = []
-    for document in documents:
-        document['_id'] = str(document['_id'])
-        response.append(document)
-    return json.dumps(response)
-    # print([i for i in mongo.db.ttc_subway_stations.find({})])
-    # return [i for i in mongo.db.ttc_subway_stations.find({})]
+# Defining a route to get all properties 
+@app.route('/')
+def index():
+    return (
+        f"/api/subway_stations"          
+             )
 
-if __name__ == "__main__":
+@app.route('/api/subway_stations')
+def get_SubwayStations():
+    # Fetching all property information from collection in the database
+   ttc_subway_stations = mongo.db.subway_stations_info.find()
+
+    # Converting MongoDB cursor to a list
+   station_list = list(ttc_subway_stations)
+   
+    # Returning the list as JSON
+   return jsonify(json.loads(json_util.dumps(station_list)))
+
+# Runing the app if this script is executed as the main program
+if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
-
-# # 1. import Flask
-# from flask import Flask
-
-# # 2. Create an app, being sure to pass __name__
-# app = Flask(__name__)
-
-
-# # 3. Define what to do when a user hits the index route
-# @app.route("/")
-# def home():
-#     print("Server received request for 'Home' page...")
-#     return "Welcome to my 'Home' page!"
-
-
-# # 4. Define what to do when a user hits the /about route
-# @app.route("/about")
-# def about():
-#     print("Server received request for 'About' page...")
-#     return "Welcome to my 'About' page!"
-
-
-# if __name__ == "__main__":
-#     app.run(debug=True)
