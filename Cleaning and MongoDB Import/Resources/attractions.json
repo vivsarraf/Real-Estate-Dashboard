@@ -1,0 +1,4187 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "170 Princes' Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4184156138918, 43.6346633567159]]",
+                "_id": 1,
+                "NAME": "BMO Field",
+                "CATEGORY": "Sports / Entertainment Venue",
+                "PHONE": "416-815-5982",
+                "WEBSITE": "https://www.bmofield.com/",
+                "POSTAL_CODE": "M6K 3C3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4184156138918,
+                        43.6346633567159
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "77 Wynford Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3318039207097, 43.7273310268744]]",
+                "_id": 2,
+                "NAME": "Aga Khan Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-646-4677",
+                "WEBSITE": "https://www.agakhanmuseum.org/",
+                "POSTAL_CODE": "M3C 1K1",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3318039207097,
+                        43.7273310268744
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "40 Bay St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3788009534123, 43.6454365794855]]",
+                "_id": 3,
+                "NAME": "Scotiabank Arena (formerly Air Canada Centre)",
+                "CATEGORY": "Sports / Entertainment Venue",
+                "PHONE": "416-815-5500",
+                "WEBSITE": "https://www.scotiabankarena.com/",
+                "POSTAL_CODE": "M5J 2X2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3788009534123,
+                        43.6454365794855
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "750 Spadina Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4038625877276, 43.6682055734258]]",
+                "_id": 4,
+                "NAME": "Al Green Theatre (at the Miles Nadal Jewish Community Centre)",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-924-6211",
+                "WEBSITE": "http://www.algreentheatre.ca/",
+                "POSTAL_CODE": "M5S 2J2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4038625877276,
+                        43.6682055734258
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "2901 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4009651976758, 43.7235314206549]]",
+                "_id": 5,
+                "NAME": "Alexander Muir Memorial Gardens",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-338-4386",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/193/index.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4009651976758,
+                        43.7235314206549
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "46 Gristmill Lane",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3598410390005, 43.6520604856909]]",
+                "_id": 6,
+                "NAME": "Gallery Indigena",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-366-3000",
+                "WEBSITE": "http://www.galleryindigena.com/",
+                "POSTAL_CODE": "M5A 3C4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3598410390005,
+                        43.6520604856909
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "19 Horticultural Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3745508759398, 43.6629442642063]]",
+                "_id": 7,
+                "NAME": "Allan Gardens",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-7288",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/41/index.html",
+                "POSTAL_CODE": "M5A 2P2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3745508759398,
+                        43.6629442642063
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "70 Berkeley St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3647507641734, 43.6547408646452]]",
+                "_id": 8,
+                "NAME": "Alumnae Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-364-4170",
+                "WEBSITE": "https://www.alumnaetheatre.com/",
+                "POSTAL_CODE": "M5A 2W6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3647507641734,
+                        43.6547408646452
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "317 Dundas St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3923703658983, 43.6555102789373]]",
+                "_id": 9,
+                "NAME": "Art Gallery of Ontario",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-979-6648",
+                "WEBSITE": "https://ago.ca/",
+                "POSTAL_CODE": "M5T 1G4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3923703658983,
+                        43.6555102789373
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1675 Lake Shore Blvd E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3109772629253, 43.663540534279]]",
+                "_id": 10,
+                "NAME": "Ashbridges Bay Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-2489",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/1/index.html",
+                "POSTAL_CODE": "M4L 3W6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3109772629253,
+                        43.663540534279
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Brimley Rd S",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.2347677158986, 43.708204762686]]",
+                "_id": 11,
+                "NAME": "Bluffer's Park and Beach (Scarborough Bluffs)",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-2489",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/2/index.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.2347677158986,
+                        43.708204762686
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "76 Wychwood Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4227256643923, 43.6818791350469]]",
+                "_id": 12,
+                "NAME": "Artscape Wychwood Barns",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-338-4386",
+                "WEBSITE": "https://artscapewychwoodbarns.ca/",
+                "POSTAL_CODE": "M6G 2X7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4227256643923,
+                        43.6818791350469
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "61 Claireville Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.6248083236811, 43.7412808602927]]",
+                "_id": 13,
+                "NAME": "BAPS Shri Swaminarayan Mandir",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-798-2277",
+                "WEBSITE": "http://www.baps.org/Global-Network/North-America/Toronto.aspx",
+                "POSTAL_CODE": "M9W 5Z7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.6248083236811,
+                        43.7412808602927
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "105 Princes' Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4104479776446, 43.6360299059783]]",
+                "_id": 14,
+                "NAME": "Beanfield Centre",
+                "CATEGORY": "Convention & Trade Centres",
+                "PHONE": "416-263-3000",
+                "WEBSITE": "https://www.beanfieldcentre.com/",
+                "POSTAL_CODE": "M6K 3C3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4104479776446,
+                        43.6360299059783
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "26 Berkeley St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3640604980114, 43.6525759671447]]",
+                "_id": 15,
+                "NAME": "Berkeley Street Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-367-8243",
+                "WEBSITE": "https://www.canadianstage.com/Online/default.asp?BOparam::WScontent::loadArticle::permalink=berkeley&BOparam::WScontent::loadArticle::context_id=",
+                "POSTAL_CODE": "M5A 2W3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3640604980114,
+                        43.6525759671447
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "404 Jarvis St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3778819880894, 43.6662605166366]]",
+                "_id": 16,
+                "NAME": "Betty Oliphant Theatre (at Canada's National Ballet School)",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-964-3780",
+                "WEBSITE": "https://www.nbs-enb.ca/venue-rentals/betty-oliphant-theatre",
+                "POSTAL_CODE": "M4Y 2G6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3778819880894,
+                        43.6662605166366
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "4 Eireann Quay",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3972835619535, 43.6359262833011]]",
+                "_id": 17,
+                "NAME": "Billy Bishop Toronto City Airport",
+                "CATEGORY": "Transportation",
+                "PHONE": "416-203-6942",
+                "WEBSITE": "https://www.billybishopairport.com/",
+                "POSTAL_CODE": "M5V 0R7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3972835619535,
+                        43.6359262833011
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "176 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3800976787492, 43.6537413069459]]",
+                "_id": 18,
+                "NAME": "Hudson's Bay",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-861-9111",
+                "WEBSITE": "https://www.thebay.com/",
+                "POSTAL_CODE": "M5C 2L7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3800976787492,
+                        43.6537413069459
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1000 Murray Ross Pkwy",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5178421019667, 43.7767692158923]]",
+                "_id": 19,
+                "NAME": "Black Creek Pioneer Village",
+                "CATEGORY": "Museum",
+                "PHONE": "416-736-1733",
+                "WEBSITE": "https://blackcreek.ca/",
+                "POSTAL_CODE": "M3J 2P3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5178421019667,
+                        43.7767692158923
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "12 Alexander St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3828631217741, 43.6653085812975]]",
+                "_id": 20,
+                "NAME": "Buddies in Bad Times Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-975-8555",
+                "WEBSITE": "https://buddiesinbadtimes.com/",
+                "POSTAL_CODE": "M4Y 1B4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3828631217741,
+                        43.6653085812975
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "909 Lake Shore Blvd W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4149144290634, 43.6313239897966]]",
+                "_id": 21,
+                "NAME": "Budweiser Stage (formerly Molson Canadian Amphitheatre)",
+                "CATEGORY": "Sports / Entertainment Venue",
+                "PHONE": "416-260-5600",
+                "WEBSITE": "https://www.livenation.com/venue/KovZpZAEkkIA/budweiser-stage-events",
+                "POSTAL_CODE": "M6K 3L3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4149144290634,
+                        43.6313239897966
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "160 Queen St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3869534917039, 43.6529004815823]]",
+                "_id": 22,
+                "NAME": "Campbell House",
+                "CATEGORY": "Museum",
+                "PHONE": "416-597-0227",
+                "WEBSITE": "http://www.campbellhousemuseum.ca/",
+                "POSTAL_CODE": "M5H 3H3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3869534917039,
+                        43.6529004815823
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "215 King St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3873645899985, 43.6489407572229]]",
+                "_id": 23,
+                "NAME": "Canada's Walk of Fame",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-367-9255",
+                "WEBSITE": "https://www.canadaswalkoffame.com/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3873645899985,
+                        43.6489407572229
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "5183 Sheppard Ave E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.2332837504065, 43.7966759868522]]",
+                "_id": 24,
+                "NAME": "Chinese Cultural Centre of Greater Toronto",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-292-9293",
+                "WEBSITE": "https://www.cccgt.org/",
+                "POSTAL_CODE": "M1B 5Z5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.2332837504065,
+                        43.7966759868522
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "61 Claireville Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.6248083236811, 43.7412808602927]]",
+                "_id": 25,
+                "NAME": "Canadian Museum of Cultural Heritage of Indo-Canadian",
+                "CATEGORY": "Museum",
+                "PHONE": "416-798-2277",
+                "WEBSITE": "https://www.baps.org/cultureandheritage/ExperienceIndia/Exhibitions/CanadianMuseumofCulturalHeritageofIndo-Canadians.aspx",
+                "POSTAL_CODE": "M9W 5Z7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.6248083236811,
+                        43.7412808602927
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "19 Mill St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3611396471424, 43.6522665453388]]",
+                "_id": 26,
+                "NAME": "Canadian Sculpture Centre",
+                "CATEGORY": "Gallery",
+                "PHONE": "647-435-5858",
+                "WEBSITE": "https://www.sculptorssocietyofcanada.org/",
+                "POSTAL_CODE": "M5A 3R6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3611396471424,
+                        43.6522665453388
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Austin Ter",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4093251494109, 43.6801118295003]]",
+                "_id": 27,
+                "NAME": "Casa Loma",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-923-1171",
+                "WEBSITE": "https://casaloma.ca/",
+                "POSTAL_CODE": "M5R 1X8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4093251494109,
+                        43.6801118295003
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "250 Front St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3875038118449, 43.6464170196587]]",
+                "_id": 28,
+                "NAME": "CBC Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-205-5574",
+                "WEBSITE": "https://www.cbc.ca/museum/",
+                "POSTAL_CODE": "M5V 3G5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3875038118449,
+                        43.6464170196587
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "225 Confederation Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.2069258352205, 43.7594306389004]]",
+                "_id": 29,
+                "NAME": "Cedar Ridge Creative Centre",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-396-4026",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/cultural-centres-galleries/cedar-ridge-creative-centre/",
+                "POSTAL_CODE": "M1G 1B2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.2069258352205,
+                        43.7594306389004
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1800 Sheppard Ave E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3442952425811, 43.7797388046115]]",
+                "_id": 30,
+                "NAME": "CF Fairview Mall",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-491-0151",
+                "WEBSITE": "https://www.cfshops.com/fairview-mall.html",
+                "POSTAL_CODE": "M2J 5A7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3442952425811,
+                        43.7797388046115
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "256 Centennial Park Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5866713806478, 43.6593174245531]]",
+                "_id": 31,
+                "NAME": "Centennial Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-394-8750",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+                "POSTAL_CODE": "M9C 5N3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5866713806478,
+                        43.6593174245531
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "151 Elmcrest Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5881487657249, 43.6514644687664]]",
+                "_id": 32,
+                "NAME": "Centennial Park Conservatory",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-394-8543",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/gardens-and-horticulture/conservatories/centennial-park-conservatory/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5881487657249,
+                        43.6514644687664
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Avenue Of The Islands",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3715604620601, 43.6185984939237]]",
+                "_id": 33,
+                "NAME": "Centre Island Beach",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "311",
+                "WEBSITE": "http://app.toronto.ca/tpha/beach/5.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3715604620601,
+                        43.6185984939237
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "21 Avenue Of The Islands",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3729806810988, 43.622406028807]]",
+                "_id": 34,
+                "NAME": "Centreville Amusement Park",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-203-0405",
+                "WEBSITE": "http://www.centreisland.ca/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3729806810988,
+                        43.622406028807
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "275 Unwin Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3414268025911, 43.6431743573946]]",
+                "_id": 35,
+                "NAME": "Cherry Beach/ Clarke Beach Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-338-4386",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/209/index.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3414268025911,
+                        43.6431743573946
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "14 Temperance St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3795099556221, 43.653075209767]]",
+                "_id": 36,
+                "NAME": "Cloud Gardens Conservatory",
+                "CATEGORY": "Garden / Conservatory",
+                "PHONE": "416-392-7288",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/gardens-and-horticulture/conservatories/cloud-gardens-conservatory/",
+                "POSTAL_CODE": "M5H 1Y4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3795099556221,
+                        43.653075209767
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "290 Bremner Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3865074039913, 43.6439027446131]]",
+                "_id": 37,
+                "NAME": "CN Tower",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-868-6937",
+                "WEBSITE": "http://www.cntower.ca/",
+                "POSTAL_CODE": "M5V 3L9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3865074039913,
+                        43.6439027446131
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "11 Colborne Lodge Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4597662106434, 43.6423463729116]]",
+                "_id": 38,
+                "NAME": "Colborne Lodge",
+                "CATEGORY": "Museum",
+                "PHONE": "416-392-6916",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/colborne-lodge/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4597662106434,
+                        43.6423463729116
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "9 Trinity St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.359060552096, 43.6520247718486]]",
+                "_id": 39,
+                "NAME": "Dancemakers and the Centre for Creation",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-367-1800",
+                "WEBSITE": "http://dancemakers.org/",
+                "POSTAL_CODE": "M5A 3C4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.359060552096,
+                        43.6520247718486
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "234 Bay St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3802838161557, 43.6501438483124]]",
+                "_id": 40,
+                "NAME": "Design Exchange",
+                "CATEGORY": "Museum",
+                "PHONE": "416-363-6121",
+                "WEBSITE": "https://dx.org/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3802838161557,
+                        43.6501438483124
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "35 Carl Hall Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4789616449492, 43.7486565893989]]",
+                "_id": 41,
+                "NAME": "Downsview Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-952-2222",
+                "WEBSITE": "https://en.downsviewpark.ca/home",
+                "POSTAL_CODE": "M3K 2E2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4789616449492,
+                        43.7486565893989
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "244 Victoria St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3791989964706, 43.6572449292893]]",
+                "_id": 42,
+                "NAME": "Ed Mirvish Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-872-1212",
+                "WEBSITE": "https://www.mirvish.com/theatres/ed-mirvish-theatre",
+                "POSTAL_CODE": "M5B 1V8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3791989964706,
+                        43.6572449292893
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "189 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3790010464263, 43.6550551232493]]",
+                "_id": 43,
+                "NAME": "Elgin and Winter Garden Theatre Centre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-314-2901",
+                "WEBSITE": "http://www.heritagetrust.on.ca/ewg/home.aspx",
+                "POSTAL_CODE": "M5B 1M4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3790010464263,
+                        43.6550551232493
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "100 Princes' Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4123529029789, 43.6365299779587]]",
+                "_id": 44,
+                "NAME": "Enercare Centre",
+                "CATEGORY": "Convention & Trade Centres",
+                "PHONE": "416-263-3000",
+                "WEBSITE": "https://www.enercarecentre.com/",
+                "POSTAL_CODE": "M6K 3C3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4123529029789,
+                        43.6365299779587
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "550 Bayview Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3654285356436, 43.6857816393402]]",
+                "_id": 45,
+                "NAME": "Evergreen Brick Works",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-596-1495",
+                "WEBSITE": "http://www.evergreen.ca/get-involved/evergreen-brick-works/",
+                "POSTAL_CODE": "M4W 3X8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3654285356436,
+                        43.6857816393402
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "100 Princes' Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4123529029789, 43.6365299779587]]",
+                "_id": 46,
+                "NAME": "Exhibition Place",
+                "CATEGORY": "Convention & Trade Centres",
+                "PHONE": "416-263-3000",
+                "WEBSITE": "https://www.explace.on.ca/",
+                "POSTAL_CODE": "M6K 3C3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4123529029789,
+                        43.6365299779587
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "125 Bathurst St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4025154741294, 43.6475701365985]]",
+                "_id": 47,
+                "NAME": "Factory Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-504-9971",
+                "WEBSITE": "https://www.factorytheatre.ca",
+                "POSTAL_CODE": "M5V 2R2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4025154741294,
+                        43.6475701365985
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "343 Evans Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5205713396751, 43.6171616064062]]",
+                "_id": 48,
+                "NAME": "Famous PEOPLE Players",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-532-1137",
+                "WEBSITE": "https://famouspeopleplayers.com/",
+                "POSTAL_CODE": "M8Z 1K2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5205713396751,
+                        43.6171616064062
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "250 Fort York Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4061161837391, 43.639863953045]]",
+                "_id": 49,
+                "NAME": "Fort York National Historic Site",
+                "CATEGORY": "Museum",
+                "PHONE": "416-392-6907",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/fort-york-national-historic-site/",
+                "POSTAL_CODE": "M5V 3K9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4061161837391,
+                        43.639863953045
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "145 Queen St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3856071743879, 43.6526174268151]]",
+                "_id": 50,
+                "NAME": "Four Seasons Centre for the Performing Arts",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-363-8231",
+                "WEBSITE": "https://www.coc.ca/venue-information/fourseasonscentre",
+                "POSTAL_CODE": "M5H 4G1",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3856071743879,
+                        43.6526174268151
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "30 Centre Island Pk",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3781879875639, 43.6176993777379]]",
+                "_id": 51,
+                "NAME": "Franklin Children's Garden",
+                "CATEGORY": "Garden / Conservatory",
+                "PHONE": "416-397-2628",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/1806/index.html",
+                "POSTAL_CODE": "M5J 2E9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3781879875639,
+                        43.6176993777379
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "111 Queen's Park",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3933098536899, 43.6699840647769]]",
+                "_id": 52,
+                "NAME": "Gardiner Museum of Ceramic Art",
+                "CATEGORY": "Museum",
+                "PHONE": "416-586-8080",
+                "WEBSITE": "https://www.gardinermuseum.on.ca/",
+                "POSTAL_CODE": "M5S 2C7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3933098536899,
+                        43.6699840647769
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "15 Devonshire Pl",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3969113276129, 43.6678409749322]]",
+                "_id": 53,
+                "NAME": "George Ignatieff Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-978-3862",
+                "WEBSITE": "https://www.trinity.utoronto.ca/discover/catering-events/george-ignatieff-theatre/",
+                "POSTAL_CODE": "M5S 2C8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3969113276129,
+                        43.6678409749322
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "443 Lakeshore Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3834808370525, 43.6150880577782]]",
+                "_id": 54,
+                "NAME": "Gibraltar Point Beach",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "311",
+                "WEBSITE": "http://app.toronto.ca/tpha/beach/4.html",
+                "POSTAL_CODE": "M5J 2W2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3834808370525,
+                        43.6150880577782
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "5172 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4144696624001, 43.7716851088223]]",
+                "_id": 55,
+                "NAME": "Gibson House Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-395-7432",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/gibson-house-museum/",
+                "POSTAL_CODE": "M2N 5P6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4144696624001,
+                        43.7716851088223
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "7450 Kingston Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.1371420074854, 43.8068511552017]]",
+                "_id": 56,
+                "NAME": "Glen Rouge Campground",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-661-6600",
+                "WEBSITE": "http://www.rougepark.com/explore/interest/campground.php",
+                "POSTAL_CODE": "M1B 0B7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.1371420074854,
+                        43.8068511552017
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "250 Front St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3875038118449, 43.6464170196587]]",
+                "_id": 57,
+                "NAME": "Glenn Gould Studio",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-205-5000",
+                "WEBSITE": "https://www.cbc.ca/glenngouldstudio/",
+                "POSTAL_CODE": "M5V 3G5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3875038118449,
+                        43.6464170196587
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "201 Guildwood Pkwy",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.1914596053353, 43.7497166519208]]",
+                "_id": 58,
+                "NAME": "Guild Park and Gardens (formely known as Guildwood Park)",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-2489",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/406/index.html",
+                "POSTAL_CODE": "M1E 1P5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.1914596053353,
+                        43.7497166519208
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "610 Bay St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3842298691055, 43.6581724761526]]",
+                "_id": 59,
+                "NAME": "Toronto Coach Terminal",
+                "CATEGORY": "Transportation",
+                "PHONE": "311",
+                "WEBSITE": "https://www.greyhound.ca/en/locations/terminal.aspx?city=126300",
+                "POSTAL_CODE": "M5G 1M5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3842298691055,
+                        43.6581724761526
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "695 Lakeshore Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3910405013224, 43.6212974492459]]",
+                "_id": 60,
+                "NAME": "Hanlan's Point Beach",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-8196",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/2541/index.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3910405013224,
+                        43.6212974492459
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "235 Queens Quay W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3829059195592, 43.6412311144729]]",
+                "_id": 61,
+                "NAME": "Harbourfront Centre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-973-4000",
+                "WEBSITE": "http://www.harbourfrontcentre.com/",
+                "POSTAL_CODE": "M5J 2G8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3829059195592,
+                        43.6412311144729
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "7 Hart House Crcl",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3943638456796, 43.665710787682]]",
+                "_id": 62,
+                "NAME": "Hart House Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-978-8849",
+                "WEBSITE": "https://harthouse.ca/",
+                "POSTAL_CODE": "M5S 3H3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3943638456796,
+                        43.665710787682
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1873 Bloor St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4638894359047, 43.6555675931873]]",
+                "_id": 63,
+                "NAME": "High Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-338-0338",
+                "WEBSITE": "http://www.highparktoronto.com/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4638894359047,
+                        43.6555675931873
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1091 Finch Ave E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3632085337711, 43.7923643845881]]",
+                "_id": 64,
+                "NAME": "Historic Zion Schoolhouse",
+                "CATEGORY": "Museum",
+                "PHONE": "416-395-7435",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/zion-schoolhouse/",
+                "POSTAL_CODE": "M2J 2X3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3632085337711,
+                        43.7923643845881
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "30 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3771834948678, 43.6491126580005]]",
+                "_id": 65,
+                "NAME": "Hockey Hall of Fame",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-360-7765",
+                "WEBSITE": "https://www.hhof.com/",
+                "POSTAL_CODE": "M5E 1X8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3771834948678,
+                        43.6491126580005
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "339 Queens Quay W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3884137394709, 43.6396899709567]]",
+                "_id": 66,
+                "NAME": "HTO Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-8188",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/1663/index.html",
+                "POSTAL_CODE": "M5V 1A2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3884137394709,
+                        43.6396899709567
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "25 The West Mall",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5570120906651, 43.6139454842345]]",
+                "_id": 67,
+                "NAME": "CF Sherway Gardens",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-621-1070",
+                "WEBSITE": "https://www.cfshops.com/sherway-gardens.html",
+                "POSTAL_CODE": "M9C 1B8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5570120906651,
+                        43.6139454842345
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "205 Humber College Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.6066478939633, 43.7311644715016]]",
+                "_id": 68,
+                "NAME": "Humber Arboretum",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-675-5009",
+                "WEBSITE": "https://humber.ca/arboretum/",
+                "POSTAL_CODE": "M9W 5L7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.6066478939633,
+                        43.7311644715016
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "100 Humber Bay Park Rd W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4808865786305, 43.6207767090691]]",
+                "_id": 69,
+                "NAME": "Humber Bay Park (Humber Bay Butterfly Habitat)",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "311",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/1074/index.html",
+                "POSTAL_CODE": "M8V 3X7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4808865786305,
+                        43.6207767090691
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "93 Charles St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3922191863739, 43.6692973563057]]",
+                "_id": 70,
+                "NAME": "Isabel Bader Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-585-4498",
+                "WEBSITE": "https://www.vicu.utoronto.ca/hospitality-services/hold-an-event/isabel-bader-theatre/",
+                "POSTAL_CODE": "M5S 1K5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3922191863739,
+                        43.6692973563057
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "9 Queens Quay W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3748918078571, 43.6424400155539]]",
+                "_id": 71,
+                "NAME": "Jack Layton Ferry Terminal",
+                "CATEGORY": "Transportation",
+                "PHONE": "416-392-8193",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/toronto-island-park/all-ferry-schedules/",
+                "POSTAL_CODE": "M5J 2H3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3748918078571,
+                        43.6424400155539
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "99 Edenbridge Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5159025090234, 43.6733653894034]]",
+                "_id": 72,
+                "NAME": "James Garden Park",
+                "CATEGORY": "Garden / Conservatory",
+                "PHONE": "416-392-8188",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/3/index.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5159025090234,
+                        43.6733653894034
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "2 Bloor St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3853521559838, 43.6727178589291]]",
+                "_id": 73,
+                "NAME": "Japan Foundation",
+                "CATEGORY": "Museum",
+                "PHONE": "416-966-1600",
+                "WEBSITE": "https://jftor.org/",
+                "POSTAL_CODE": "M4W 1A8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3853521559838,
+                        43.6727178589291
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Beech Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.286510590319, 43.6725546875392]]",
+                "_id": 74,
+                "NAME": "Balmy Beach Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "311",
+                "WEBSITE": "http://app.toronto.ca/tpha/beach/9.html",
+                "POSTAL_CODE": "M4E 1A7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.286510590319,
+                        43.6725546875392
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "2075 Queen St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.2990896836228, 43.6719887207446]]",
+                "_id": 75,
+                "NAME": "Kew Gardens Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-2489",
+                "WEBSITE": "https://www.kew.org/kew-gardens",
+                "POSTAL_CODE": "M4L 1J1",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.2990896836228,
+                        43.6719887207446
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "273 Bloor St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3958590533545, 43.6698553202174]]",
+                "_id": 76,
+                "NAME": "Koerner Hall (at the Telus Centre for Performance and Learning)",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-408-0208",
+                "WEBSITE": "https://www.rcmusic.com/about-us/rcm-venue-rentals/koerner-hall",
+                "POSTAL_CODE": "M5S 1W2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3958590533545,
+                        43.6698553202174
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "100 Ossington Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4196300853624, 43.6483776856007]]",
+                "_id": 77,
+                "NAME": "Lower Ossington Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-915-6747",
+                "WEBSITE": "http://lowerossingtontheatre.com/",
+                "POSTAL_CODE": "M6J 2Z4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4196300853624,
+                        43.6483776856007
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "82 Bond St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3782548822104, 43.6576791969401]]",
+                "_id": 78,
+                "NAME": "Mackenzie House",
+                "CATEGORY": "Museum",
+                "PHONE": "416-392-6915",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/mackenzie-house/",
+                "POSTAL_CODE": "M5B 1X2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3782548822104,
+                        43.6576791969401
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "2 Forty Second St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5418841087542, 43.588760151211]]",
+                "_id": 79,
+                "NAME": "Marie Curtis Park East Beach",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "311",
+                "WEBSITE": "http://app.toronto.ca/tpha/beach/1.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5418841087542,
+                        43.588760151211
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "178 Victoria St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.378570671925, 43.6558155242078]]",
+                "_id": 80,
+                "NAME": "Massey Hall",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-872-4255",
+                "WEBSITE": "https://www.masseyhall.com/",
+                "POSTAL_CODE": "M5B 1T7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.378570671925,
+                        43.6558155242078
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "50 Carlton St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3801144393073, 43.6638177384888]]",
+                "_id": 81,
+                "NAME": "Mattamy Athletic Centre",
+                "CATEGORY": "Sports / Entertainment Venue",
+                "PHONE": "416-979-5339",
+                "WEBSITE": "https://www.mattamyathleticcentre.ca/",
+                "POSTAL_CODE": "M5B 1J2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3801144393073,
+                        43.6638177384888
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "10 Dufferin St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4253077328489, 43.6346962959367]]",
+                "_id": 82,
+                "NAME": "Medieval Times Dinner and Tournament",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "1-866-543-9637",
+                "WEBSITE": "https://www.medievaltimes.com/",
+                "POSTAL_CODE": "M6K 3C3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4253077328489,
+                        43.6346962959367
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "222 Bremner Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.38469775815, 43.6446836658206]]",
+                "_id": 83,
+                "NAME": "Metro Toronto Convention Centre",
+                "CATEGORY": "Convention & Trade Centres",
+                "PHONE": "416-585-8000",
+                "WEBSITE": "https://www.mtccc.com/",
+                "POSTAL_CODE": "M5V 3L9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.38469775815,
+                        43.6446836658206
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "4709 Dundas St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.525461029977, 43.653675712059]]",
+                "_id": 84,
+                "NAME": "Montgomery's Inn",
+                "CATEGORY": "Museum",
+                "PHONE": "416-394-8113",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/montgomerys-inn/",
+                "POSTAL_CODE": "M9A 1A8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.525461029977,
+                        43.653675712059
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "299 Queen St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3901779495508, 43.6515504597024]]",
+                "_id": 85,
+                "NAME": "MuchMusic (Bell Media Queen Street)",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-591-5757",
+                "WEBSITE": "https://www.much.com/",
+                "POSTAL_CODE": "M5V 2Z5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3901779495508,
+                        43.6515504597024
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "158 Sterling Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4457650364928, 43.6565879174555]]",
+                "_id": 86,
+                "NAME": "Museum of Contemporary Canadian Art",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-395-0067",
+                "WEBSITE": "https://moca.ca/",
+                "POSTAL_CODE": "M6R 2B7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4457650364928,
+                        43.6565879174555
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "33 Gerrard St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3828287830121, 43.6604336630428]]",
+                "_id": 87,
+                "NAME": "Mysteriously Yours Mystery Dinner Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-486-7469",
+                "WEBSITE": "https://mysteriouslyyours.ca/",
+                "POSTAL_CODE": "M5G 1Z4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3828287830121,
+                        43.6604336630428
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "585 Dundas St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3617415183511, 43.6620846864797]]",
+                "_id": 88,
+                "NAME": "Native Earth Performing Arts & Aki Studio",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-531-1402",
+                "WEBSITE": "https://www.nativeearth.ca/",
+                "POSTAL_CODE": "M5A 2B7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3617415183511,
+                        43.6620846864797
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "60 Queen St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3815525785401, 43.6541024278247]]",
+                "_id": 89,
+                "NAME": "Old City Hall",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-338-0338",
+                "WEBSITE": "https://www.toronto.ca/311/knowledgebase/kb/docs/articles/Corporate-Real-Estate-Management/facilities-management/old-city-hall-toronto-courthouse.html",
+                "POSTAL_CODE": "M5H 2M3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3815525785401,
+                        43.6541024278247
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "199 Richmond St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3882096127348, 43.6514164388418]]",
+                "_id": 90,
+                "NAME": "Onsite [at] OCADU",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-977-6000",
+                "WEBSITE": "https://www.ocadu.ca/gallery/onsite",
+                "POSTAL_CODE": "M5V 0H4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3882096127348,
+                        43.6514164388418
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "770 Don Mills Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.337944641102, 43.7184425543837]]",
+                "_id": 91,
+                "NAME": "Ontario Science Centre",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-696-1000",
+                "WEBSITE": "https://www.ontariosciencecentre.ca/",
+                "POSTAL_CODE": "M3C 1T3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.337944641102,
+                        43.7184425543837
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "130 Queen St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3847486562494, 43.6536678598664]]",
+                "_id": 92,
+                "NAME": "Osgoode Hall",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-947-3300",
+                "WEBSITE": "https://www.osgoode.yorku.ca/",
+                "POSTAL_CODE": "M5H 2N6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3847486562494,
+                        43.6536678598664
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "651 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3853549322838, 43.670112787611]]",
+                "_id": 93,
+                "NAME": "CAA Theatre (formerly Panasonic Theatre)",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-872-1212",
+                "WEBSITE": "https://www.mirvish.com/theatres/caa-theatre",
+                "POSTAL_CODE": "M4Y 1Z9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3853549322838,
+                        43.670112787611
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "11 Polson St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3545018157681, 43.6430856834065]]",
+                "_id": 94,
+                "NAME": "Polson Pier",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-469-5655",
+                "WEBSITE": "https://www.polsonpier.com/",
+                "POSTAL_CODE": "M5A 1A4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3545018157681,
+                        43.6430856834065
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "300 King St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3891201050389, 43.6490446119187]]",
+                "_id": 95,
+                "NAME": "Princess of Wales Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-872-1212",
+                "WEBSITE": "https://www.mirvish.com/theatres/princess-of-wales-theatre",
+                "POSTAL_CODE": "M5V 1J2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3891201050389,
+                        43.6490446119187
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "190 Princes' Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4211795128198, 43.6347273873487]]",
+                "_id": 96,
+                "NAME": "Queen Elizabeth Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-263-3293",
+                "WEBSITE": "https://queenelizabeththeatre.ca/",
+                "POSTAL_CODE": "M6K 3C3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4211795128198,
+                        43.6347273873487
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "110 Wellesley St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3915717398634, 43.6668695707011]]",
+                "_id": 97,
+                "NAME": "Queen's Park: Legislative Assembly of Ontario",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-325-7500",
+                "WEBSITE": "https://www.ola.org/en/visit-learn/parliament-government/explore-queens-park",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3915717398634,
+                        43.6668695707011
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "736 Bathurst St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4106772674961, 43.6655854751761]]",
+                "_id": 98,
+                "NAME": "Randolph Centre for the Arts",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-924-2243",
+                "WEBSITE": "http://www.randolphcentreforthearts.com/",
+                "POSTAL_CODE": "M5S 2R4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4106772674961,
+                        43.6655854751761
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "95 Queens Quay E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3701978777063, 43.6445472149093]]",
+                "_id": 99,
+                "NAME": "Redpath Sugar Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-366-3561",
+                "WEBSITE": "https://www.redpathsugar.com/",
+                "POSTAL_CODE": "M5E 1A3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3701978777063,
+                        43.6445472149093
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "45 Manitoba Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4148922409211, 43.637791090945]]",
+                "_id": 100,
+                "NAME": "Coca-Cola Coliseum (formerly Ricoh Coliseum)",
+                "CATEGORY": "Sports / Entertainment Venue",
+                "PHONE": "416-263-3900",
+                "WEBSITE": "https://www.coca-colacoliseum.com/",
+                "POSTAL_CODE": "M6K 3C3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4148922409211,
+                        43.637791090945
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "288 Bremner Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3858355016889, 43.6443778070003]]",
+                "_id": 101,
+                "NAME": "Ripley's Aquarium of Canada",
+                "CATEGORY": "Attraction",
+                "PHONE": "647-351-3474",
+                "WEBSITE": "https://www.ripleyaquariums.com/canada/",
+                "POSTAL_CODE": "M5V 3L9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3858355016889,
+                        43.6443778070003
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "201 Winchester St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3608526645466, 43.6693197908388]]",
+                "_id": 102,
+                "NAME": "Riverdale Farm",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-392-6794",
+                "WEBSITE": "http://riverdalefarmtoronto.ca/",
+                "POSTAL_CODE": "M4X 1B8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3608526645466,
+                        43.6693197908388
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "550 Broadview Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3543852325392, 43.6728197325818]]",
+                "_id": 103,
+                "NAME": "Riverdale Park (East and West)",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-2489",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/343/index.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3543852325392,
+                        43.6728197325818
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Blue Jays Way",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3891718446234, 43.6441781003267]]",
+                "_id": 104,
+                "NAME": "Rogers Centre",
+                "CATEGORY": "Sports / Entertainment Venue",
+                "PHONE": "416-341-1000",
+                "WEBSITE": "https://www.mlb.com/bluejays/ballpark",
+                "POSTAL_CODE": "M5V 1J4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3891718446234,
+                        43.6441781003267
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "5 Glen Everest Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.2554470330807, 43.6994158658252]]",
+                "_id": 105,
+                "NAME": "Rosetta McClain Gardens",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-8188",
+                "WEBSITE": "www.toronto.ca/data/parks/prd/facilities/complex/19/index.html",
+                "POSTAL_CODE": "M1N 1J2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.2554470330807,
+                        43.6994158658252
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "195 Rouge Hills Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.1211886464507, 43.7936703813361]]",
+                "_id": 106,
+                "NAME": "Rouge Beach Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "311",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/340/index.html",
+                "POSTAL_CODE": "M1C 2Y9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.1211886464507,
+                        43.7936703813361
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1749 Meadowvale Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.1716576920731, 43.8203769465488]]",
+                "_id": 107,
+                "NAME": "Rouge National Urban Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-264-2020",
+                "WEBSITE": "https://www.pc.gc.ca/en/pn-np/on/rouge",
+                "POSTAL_CODE": "M1B 5W8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.1716576920731,
+                        43.8203769465488
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "60 Simcoe St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3862510843023, 43.6486976530181]]",
+                "_id": 108,
+                "NAME": "Roy Thomson Hall",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-872-4255",
+                "WEBSITE": "https://www.roythomsonhall.com/",
+                "POSTAL_CODE": "M5J 2H5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3862510843023,
+                        43.6486976530181
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "260 King St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3874427901689, 43.649449438223]]",
+                "_id": 109,
+                "NAME": "Royal Alexandra Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-872-1212",
+                "WEBSITE": "https://www.mirvish.com/theatres/royal-alexandra-theatre",
+                "POSTAL_CODE": "M5V 1H9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3874427901689,
+                        43.649449438223
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "273 Bloor St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3958590533545, 43.6698553202174]]",
+                "_id": 110,
+                "NAME": "Royal Conservatory of Music",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-408-2824",
+                "WEBSITE": "https://www.rcmusic.com/",
+                "POSTAL_CODE": "M5S 1W2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3958590533545,
+                        43.6698553202174
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "100 Queen's Park",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3940126062519, 43.6697942953825]]",
+                "_id": 111,
+                "NAME": "Royal Ontario Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-586-8000",
+                "WEBSITE": "https://www.rom.on.ca/en",
+                "POSTAL_CODE": "M5S 2C6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3940126062519,
+                        43.6697942953825
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "33 Gould St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3790627538868, 43.6596609269509]]",
+                "_id": 112,
+                "NAME": "Ryerson Image Centre",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-979-5164",
+                "WEBSITE": "https://ryersonimagecentre.ca/",
+                "POSTAL_CODE": "M5B 1E9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3790627538868,
+                        43.6596609269509
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "43 Gerrard St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3788537895224, 43.6615913679868]]",
+                "_id": 113,
+                "NAME": "Ryerson Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-979-5009",
+                "WEBSITE": "https://www.ryerson.ca/university-business-services/event-space-reservations/theatre/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3788537895224,
+                        43.6615913679868
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "4600 Bathurst St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4409234699692, 43.766501766674]]",
+                "_id": 114,
+                "NAME": "Sarah and Chaim Neuberger Holocaust Education Centre",
+                "CATEGORY": "Museum",
+                "PHONE": "416-631-5689",
+                "WEBSITE": "https://www.holocaustcentre.com/",
+                "POSTAL_CODE": "M2R 3V2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4409234699692,
+                        43.766501766674
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1007 Brimley Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.2562306424027, 43.7600444383423]]",
+                "_id": 115,
+                "NAME": "Scarborough Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-338-8807",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/scarborough-museum/",
+                "POSTAL_CODE": "M1P 3E8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.2562306424027,
+                        43.7600444383423
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "3600 Kingston Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.2165521776518, 43.741991486392]]",
+                "_id": 116,
+                "NAME": "Scarborough Village Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-267-9292",
+                "WEBSITE": "https://theatrescarborough.com/",
+                "POSTAL_CODE": "M1M 1R9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.2165521776518,
+                        43.741991486392
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "601 Christie St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4238961016719, 43.6819574485707]]",
+                "_id": 117,
+                "NAME": "Solar Stage Children's Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-368-8031",
+                "WEBSITE": "https://solarstage.on.ca/",
+                "POSTAL_CODE": "M6G 4C7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4238961016719,
+                        43.6819574485707
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Front St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3759983187062, 43.6485784438655]]",
+                "_id": 118,
+                "NAME": "Meridian Hall (formerly Sony Centre for the Performing Arts)",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-368-6161",
+                "WEBSITE": "http://www.meridianhall.com/",
+                "POSTAL_CODE": "M5E 1B2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3759983187062,
+                        43.6485784438655
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "11 Dockside Dr",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3673444488914, 43.6455643704739]]",
+                "_id": 119,
+                "NAME": "Sugar Beach Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-338-4386",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/2261/index.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3673444488914,
+                        43.6455643704739
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "285 Spadina Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.408129078813, 43.6810266590651]]",
+                "_id": 120,
+                "NAME": "Spadina Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-392-6910",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/spadina-museum/",
+                "POSTAL_CODE": "M5R 2V5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.408129078813,
+                        43.6810266590651
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "120 King St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3723739210341, 43.6525667380652]]",
+                "_id": 121,
+                "NAME": "St. James Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-392-2489",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/408/index.html",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3723739210341,
+                        43.6525667380652
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "27 Front St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3750142591045, 43.6494041113268]]",
+                "_id": 122,
+                "NAME": "St. Lawrence Centre for the Arts",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-366-1656",
+                "WEBSITE": "http://www.stlc.com/",
+                "POSTAL_CODE": "M5E 1B4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3750142591045,
+                        43.6494041113268
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "93 Front St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3714104009798, 43.6511434617478]]",
+                "_id": 123,
+                "NAME": "St. Lawrence Market and Market Gallery",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-392-7219",
+                "WEBSITE": "http://www.stlawrencemarket.com/",
+                "POSTAL_CODE": "M5E 1C3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3714104009798,
+                        43.6511434617478
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "255 Bremner Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3851853298275, 43.6437271938888]]",
+                "_id": 124,
+                "NAME": "Steam Whistle Brewery",
+                "CATEGORY": "Attraction",
+                "PHONE": "647-697-0859",
+                "WEBSITE": "https://steamwhistle.ca/",
+                "POSTAL_CODE": "M5V 3M9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3851853298275,
+                        43.6437271938888
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "25 The West Mall",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5570120906651, 43.6139454842345]]",
+                "_id": 125,
+                "NAME": "CF Sherway Gardens",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-621-1070",
+                "WEBSITE": "https://www.cfshops.com/sherway-gardens.html",
+                "POSTAL_CODE": "M9C 1B8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5570120906651,
+                        43.6139454842345
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1755 Lake Shore Blvd W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4572327124193, 43.6396986705767]]",
+                "_id": 126,
+                "NAME": "Sunnyside Beach",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "311",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/394/index.html",
+                "POSTAL_CODE": "M6S 5A3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4572327124193,
+                        43.6396986705767
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1604 Bloor St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.455051931212, 43.6579773800928]]",
+                "_id": 127,
+                "NAME": "Taras H. Shevchenko Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-534-8662",
+                "WEBSITE": "http://www.infoukes.com/shevchenkomuseum/",
+                "POSTAL_CODE": "M6P 1A7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.455051931212,
+                        43.6579773800928
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "30 Bridgman Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4126611860157, 43.6769027484073]]",
+                "_id": 128,
+                "NAME": "Tarragon Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-531-1827",
+                "WEBSITE": "http://www.tarragontheatre.com/",
+                "POSTAL_CODE": "M5R 1X3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4126611860157,
+                        43.6769027484073
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "55 Centre Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3864533344223, 43.6565772998496]]",
+                "_id": 129,
+                "NAME": "Textile Museum of Canada",
+                "CATEGORY": "Museum",
+                "PHONE": "416-599-5321",
+                "WEBSITE": "https://textilemuseum.ca/",
+                "POSTAL_CODE": "M5G 2H5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3864533344223,
+                        43.6565772998496
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "73 Simcoe St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3853532345769, 43.648778569482]]",
+                "_id": 130,
+                "NAME": "The 48th Highlanders Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-635-4440",
+                "WEBSITE": "http://www.48highlanders.com/04_03.html",
+                "POSTAL_CODE": "M5J 1W9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3853532345769,
+                        43.648778569482
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "327 Bloor St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3999486403179, 43.6692312650026]]",
+                "_id": 131,
+                "NAME": "The Bata Shoe Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416-979-7799",
+                "WEBSITE": "https://batashoemuseum.ca/",
+                "POSTAL_CODE": "M5S 1W7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3999486403179,
+                        43.6692312650026
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "147 Danforth Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3568217007348, 43.6781980206842]]",
+                "_id": 132,
+                "NAME": "The Danforth Music Hall",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-778-8163",
+                "WEBSITE": "http://thedanforth.com/",
+                "POSTAL_CODE": "M4K 1N2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3568217007348,
+                        43.6781980206842
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "55 Mill St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3594616877865, 43.6526373309724]]",
+                "_id": 133,
+                "NAME": "The Distillery Historic District",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-364-1177",
+                "WEBSITE": "https://www.thedistillerydistrict.com/",
+                "POSTAL_CODE": "M5A 3C4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3594616877865,
+                        43.6526373309724
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "231 Queens Quay W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3819584299024, 43.6406697594208]]",
+                "_id": 134,
+                "NAME": "The Power Plant Contemporary Art Gallery",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-973-4949",
+                "WEBSITE": "http://www.thepowerplant.org/",
+                "POSTAL_CODE": "M5J 2G8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3819584299024,
+                        43.6406697594208
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "51 Mercer St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3913376504474, 43.6473732707324]]",
+                "_id": 135,
+                "NAME": "The Second City",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-343-0011",
+                "WEBSITE": "https://www.secondcity.com/toronto/",
+                "POSTAL_CODE": "M5V 1H2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3913376504474,
+                        43.6473732707324
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1115 Queen St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4230841644117, 43.6450984245657]]",
+                "_id": 136,
+                "NAME": "The Theatre Centre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-538-0988",
+                "WEBSITE": "http://theatrecentre.org/",
+                "POSTAL_CODE": "M6J 1J1",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4230841644117,
+                        43.6450984245657
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "2190 Bloor St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4746093095286, 43.6536519011144]]",
+                "_id": 137,
+                "NAME": "The Village Playhouse",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-767-7702",
+                "WEBSITE": "http://www.villageplayers.net/",
+                "POSTAL_CODE": "M6S 1N3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4746093095286,
+                        43.6536519011144
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "16 Ryerson Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4024127775791, 43.6505996466293]]",
+                "_id": 138,
+                "NAME": "Theatre Passe Muraille",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-504-7529",
+                "WEBSITE": "http://passemuraille.ca/",
+                "POSTAL_CODE": "M5T 2P3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4024127775791,
+                        43.6505996466293
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "32 Distillery Lane",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3599894158372, 43.6517463221062]]",
+                "_id": 139,
+                "NAME": "Thompson Landry Gallery - Stone Building & Cooperage Space",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-364-4955",
+                "WEBSITE": "http://www.thompsonlandry.com/",
+                "POSTAL_CODE": "M5A 3C4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3599894158372,
+                        43.6517463221062
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "350 King St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3902515461928, 43.6486451161013]]",
+                "_id": 140,
+                "NAME": "TIFF Bell Lightbox",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-599-2033",
+                "WEBSITE": "https://www.tiff.net/",
+                "POSTAL_CODE": "M5V 3X5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3902515461928,
+                        43.6486451161013
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "67 Pottery Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3601346791559, 43.6883594323143]]",
+                "_id": 141,
+                "NAME": "Todmorden Mills Heritage Site",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-396-2819",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/museums/todmorden-mills/",
+                "POSTAL_CODE": "M4K 2B9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3601346791559,
+                        43.6883594323143
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Leslie St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3213924362603, 43.6531849402458]]",
+                "_id": 142,
+                "NAME": "Tommy Thompson Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-661-6600",
+                "WEBSITE": "https://tommythompsonpark.ca/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3213924362603,
+                        43.6531849402458
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "777 Lawrence Ave E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3584635916899, 43.7363364065238]]",
+                "_id": 143,
+                "NAME": "Toronto Botanical Gardens and Edwards Gardens",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-397-1340",
+                "WEBSITE": "https://torontobotanicalgarden.ca/",
+                "POSTAL_CODE": "M3C 1P2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3584635916899,
+                        43.7363364065238
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "5040 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4138236624494, 43.7682789222242]]",
+                "_id": 144,
+                "NAME": "Meridian Arts Centre (formerly Toronto Centre for the Arts)",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-733-9388",
+                "WEBSITE": "http://www.meridianartscentre.com/",
+                "POSTAL_CODE": "M2N 6R8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4138236624494,
+                        43.7682789222242
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "100 Queen St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3834258614978, 43.6548206632272]]",
+                "_id": 145,
+                "NAME": "Toronto City Hall and Nathan Phillips Square",
+                "CATEGORY": "Landmark",
+                "PHONE": "311",
+                "WEBSITE": "https://www.toronto.ca/services-payments/venues-facilities-bookings/booking-city-facilities/city-hall/",
+                "POSTAL_CODE": "M5H 2N1",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3834258614978,
+                        43.6548206632272
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "650 Dixon Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5779744678935, 43.692895731686]]",
+                "_id": 146,
+                "NAME": "Toronto Congress Centre",
+                "CATEGORY": "Convention & Trade Centres",
+                "PHONE": "416-245-5000",
+                "WEBSITE": "https://www.torontocongresscentre.com/",
+                "POSTAL_CODE": "M9W 1J1",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5779744678935,
+                        43.692895731686
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "65 Front St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3801454108119, 43.6475184738269]]",
+                "_id": 147,
+                "NAME": "Union Station",
+                "CATEGORY": "Transportation",
+                "PHONE": "311",
+                "WEBSITE": "https://torontounion.ca/",
+                "POSTAL_CODE": "M5J 1E6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3801454108119,
+                        43.6475184738269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "220 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.379910447201, 43.6556679131384]]",
+                "_id": 148,
+                "NAME": "CF Toronto Eaton Centre",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-598-8560",
+                "WEBSITE": "https://www.cfshops.com/toronto-eaton-centre.html",
+                "POSTAL_CODE": "M5B 2H1",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.379910447201,
+                        43.6556679131384
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Centre Island Pk",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3770752909015, 43.61721427079]]",
+                "_id": 149,
+                "NAME": "Toronto Island Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "311",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/parks-gardens-beaches/toronto-island-park/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3770752909015,
+                        43.61721427079
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "479 Queens Quay W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3932984112137, 43.6392159143018]]",
+                "_id": 150,
+                "NAME": "Toronto Music Garden",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-973-4000",
+                "WEBSITE": "http://www.harbourfrontcentre.com/venues/torontomusicgarden/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3932984112137,
+                        43.6392159143018
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": " ",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.613161628188, 43.6775023539927]]",
+                "_id": 151,
+                "NAME": "Toronto Pearson International Airport",
+                "CATEGORY": "Transportation",
+                "PHONE": "416-247-7678",
+                "WEBSITE": "https://www.torontopearson.com/en",
+                "POSTAL_CODE": "L5P 1B2",
+                "CITY": "Mississauga"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.613161628188,
+                        43.6775023539927
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "40 College St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3849400713259, 43.6633475888029]]",
+                "_id": 152,
+                "NAME": "Toronto Police Museum & Discovery Centre",
+                "CATEGORY": "Museum",
+                "PHONE": "416-808-7020",
+                "WEBSITE": "http://www.torontopolice.on.ca/museum/",
+                "POSTAL_CODE": "M5G 2J3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3849400713259,
+                        43.6633475888029
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "24 Trinity Sq",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3816414594175, 43.6562147143283]]",
+                "_id": 153,
+                "NAME": "Toronto Public Labyrinth at Trinity Square",
+                "CATEGORY": "Landmark or Attraction",
+                "PHONE": "416-338-4386",
+                "WEBSITE": "http://www.labyrinthnetwork.ca/toronto-public-labyrinth/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3816414594175,
+                        43.6562147143283
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "255 Bremner Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3851853298275, 43.6437271938888]]",
+                "_id": 154,
+                "NAME": "Toronto Railway Museum",
+                "CATEGORY": "Museum",
+                "PHONE": "416- 214-9229",
+                "WEBSITE": "https://torontorailwaymuseum.com/",
+                "POSTAL_CODE": "M5V 3M9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3851853298275,
+                        43.6437271938888
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "789 Yonge St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3864707978445, 43.6738775358313]]",
+                "_id": 155,
+                "NAME": "Toronto Reference Library",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-395-5577",
+                "WEBSITE": "https://www.torontopubliclibrary.ca/torontoreferencelibrary/",
+                "POSTAL_CODE": "M4W 2G8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3864707978445,
+                        43.6738775358313
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "115 King St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3734645361671, 43.6518456095473]]",
+                "_id": 156,
+                "NAME": "Toronto Sculpture Garden",
+                "CATEGORY": "Featured Park",
+                "PHONE": "416-392-4012",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/history-art-culture/public-art/public-art-monuments-collection/comp-sculpture-garden/",
+                "POSTAL_CODE": "M5C 1G6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3734645361671,
+                        43.6518456095473
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "65 Front St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3801454108119, 43.6475184738269]]",
+                "_id": 157,
+                "NAME": "Toronto Tourist Information Centre",
+                "CATEGORY": "Visitor Information",
+                "PHONE": "416-392-9300",
+                "WEBSITE": "https://www.toronto.ca/explore-enjoy/visitor-services/tourist-information-centres/",
+                "POSTAL_CODE": "M5J 1E6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3801454108119,
+                        43.6475184738269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "224 Richmond St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3881630648333, 43.6518696837228]]",
+                "_id": 158,
+                "NAME": "Yuk Yuk's",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-967-6431",
+                "WEBSITE": "https://www.yukyuks.com/",
+                "POSTAL_CODE": "M5V 1V6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3881630648333,
+                        43.6518696837228
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "2000 Meadowvale Rd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.17813719971, 43.8258722577434]]",
+                "_id": 159,
+                "NAME": "Toronto Zoo",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-392-5900",
+                "WEBSITE": "https://www.torontozoo.com/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.17813719971,
+                        43.8258722577434
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "260 Adelaide St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3703364980376, 43.6539098238663]]",
+                "_id": 160,
+                "NAME": "Toronto's First Post Office",
+                "CATEGORY": "Museum",
+                "PHONE": "416-865-1833",
+                "WEBSITE": "http://www.townofyork.com/",
+                "POSTAL_CODE": "M5A 1N1",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3703364980376,
+                        43.6539098238663
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "65 Front St W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3801454108119, 43.6475184738269]]",
+                "_id": 161,
+                "NAME": "Travellers' Aid Society of Toronto",
+                "CATEGORY": "Visitor Information",
+                "PHONE": "416-366-7788",
+                "WEBSITE": "http://travellersaid.ca/",
+                "POSTAL_CODE": "M5J 1E6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3801454108119,
+                        43.6475184738269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "620 Spadina Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4020381246607, 43.6639397316248]]",
+                "_id": 162,
+                "NAME": "Ukrainian Museum of Canada",
+                "CATEGORY": "Museum",
+                "PHONE": "416-923-9861",
+                "WEBSITE": "http://umcontario.com/",
+                "POSTAL_CODE": "M5S 2H4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4020381246607,
+                        43.6639397316248
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "555 Rexdale Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.605446341063, 43.711000574598]]",
+                "_id": 163,
+                "NAME": "Woodbine Racetracks",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-675-7223",
+                "WEBSITE": "https://woodbine.com/",
+                "POSTAL_CODE": "M9W 7G3",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.605446341063,
+                        43.711000574598
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "15 King's College Crcl",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3951385322816, 43.6645409850473]]",
+                "_id": 164,
+                "NAME": "Art Museum at the University of Toronto",
+                "CATEGORY": "Gallery",
+                "PHONE": "416-978-1838",
+                "WEBSITE": "https://artmuseum.utoronto.ca/",
+                "POSTAL_CODE": "M5S 3H7",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3951385322816,
+                        43.6645409850473
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "115 Cumberland St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3914753653529, 43.6720256753297]]",
+                "_id": 165,
+                "NAME": "Village of Yorkville Park",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-338-4386",
+                "WEBSITE": "https://www.bloor-yorkville.com/village-yorkville-park-green-space-gem/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3914753653529,
+                        43.6720256753297
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "40 Lakeshore Ave",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.354607651682, 43.6316046472621]]",
+                "_id": 166,
+                "NAME": "Ward's Island Beach",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-338-4386",
+                "WEBSITE": "http://app.toronto.ca/tpha/beach/6.html",
+                "POSTAL_CODE": "M5J 1X8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.354607651682,
+                        43.6316046472621
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "80 Winchester St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.366812358877, 43.6684211850633]]",
+                "_id": 167,
+                "NAME": "Winchester Street Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-967-1365",
+                "WEBSITE": "http://winchester.tdt.org/",
+                "POSTAL_CODE": "M4X 1B2",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.366812358877,
+                        43.6684211850633
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1675 Lake Shore Blvd E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3109772629253, 43.663540534279]]",
+                "_id": 168,
+                "NAME": "Woodbine Beach",
+                "CATEGORY": "Nature/ Park",
+                "PHONE": "416-338-4386",
+                "WEBSITE": "https://www.toronto.ca/data/parks/prd/facilities/complex/311/index.html",
+                "POSTAL_CODE": "M4L 3W6",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3109772629253,
+                        43.663540534279
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "500 Rexdale Blvd",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.5998686048114, 43.722374575158]]",
+                "_id": 169,
+                "NAME": "Woodbine Shopping Centre and Fantasy Fair",
+                "CATEGORY": "Attraction",
+                "PHONE": "416-674-5200",
+                "WEBSITE": "http://www.fantasyfair.ca/",
+                "POSTAL_CODE": "M9W 6K5",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.5998686048114,
+                        43.722374575158
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "1 Dundas St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3802393117994, 43.658191885632]]",
+                "_id": 170,
+                "NAME": "Yonge-Dundas Square",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-979-9960",
+                "WEBSITE": "https://www.ydsquare.ca/",
+                "POSTAL_CODE": " ",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3802393117994,
+                        43.658191885632
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "235 Queens Quay W",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3829059195592, 43.6412311144729]]",
+                "_id": 171,
+                "NAME": "York Quay Centre",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-967-6425",
+                "WEBSITE": "http://www.harbourfrontcentre.com/",
+                "POSTAL_CODE": "M5J 2G8",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3829059195592,
+                        43.6412311144729
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "3401 Dufferin St",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.4512705209003, 43.7280688600998]]",
+                "_id": 172,
+                "NAME": "Yorkdale Mall",
+                "CATEGORY": "Landmark",
+                "PHONE": "416-789-3261",
+                "WEBSITE": "https://yorkdale.com/",
+                "POSTAL_CODE": "M6A 2T9",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.4512705209003,
+                        43.7280688600998
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "50 Tank House Lane",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3572584343792, 43.652849553454]]",
+                "_id": 173,
+                "NAME": "Young Centre for the Performing Arts",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-866-8666",
+                "WEBSITE": "https://www.youngcentre.ca/",
+                "POSTAL_CODE": "M5A 3C4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3572584343792,
+                        43.652849553454
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Address": "165 Front St E",
+                "Geometry Type": "MultiPoint",
+                "Coordinates": "[[-79.3685388069471, 43.6519886365406]]",
+                "_id": 174,
+                "NAME": "Young People's Theatre",
+                "CATEGORY": "Performing Arts",
+                "PHONE": "416-862-2222",
+                "WEBSITE": "https://www.youngpeoplestheatre.org/",
+                "POSTAL_CODE": "M5A 3Z4",
+                "CITY": "Toronto"
+            },
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        -79.3685388069471,
+                        43.6519886365406
+                    ]
+                ]
+            }
+        }
+    ]
+}
