@@ -14,15 +14,14 @@ mongo = PyMongo(app)
 # Defining a route to get all properties 
 @app.route('/')
 def index():
-    return (
-        f"/api/PropertyListings"          
-             )
-
+     return render_template("index.html")
+       
 @app.route('/api/PropertyListings')
 def get_PropertyListings():
     # Fetching all property information from collection in the database
    PropertyListings = mongo.db.PropertyListings.find()
 
+ 
     # Converting MongoDB cursor to a list
    properties_list = list(PropertyListings)
    
