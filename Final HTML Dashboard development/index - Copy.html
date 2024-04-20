@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Residential Real Estate Dashboard for Toronto Properties | Home</title>
+
+      <!-- D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+    <!-- Leaflet JavaScript code -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <!-- web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet"> -->
+    <!-- //web fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <style>
+        #map { height:650px; width: 1075px;}
+    </style>
+  </head>
+  
+   
+<body>
+
+<section class="form-12" id="home">
+	<div class="form-12-content">
+		<div class="container">
+			<div class="grid grid-column-2 ">
+				<!-- ... existing HTML above ... -->
+<div class="column2">
+    <h1>Property Search with Leaflet</h1>
+    <form id="searchForm">
+        <div class="input-container">
+            <label for="postalcode" class="form-label"> </label>
+            <input type="text" id="postalcode" name="postalcode" placeholder="Postal Code"><br>
+            
+            <label for="minbed" class="form-label"></label>
+            <input type="text" id="minbed" name="minbed" placeholder="Min Bed"><br>
+            
+            <label for="maxbed" class="form-label"></label>
+            <input type="text" id="maxbed" name="maxbed" placeholder="Max Bed">
+        </div>
+        <button type="submit">Search</button>
+    </form>
+</div>
+<!-- ... existing HTML below ... -->
+				<div class="column1">	
+						<form action="/" method="Get">
+							<div class="blog-search form d-flex search-form">
+								<!-- <input type="search" class="form-control" placeholder="Enter City" name="search" required="required"> -->
+								
+							</div>
+							<div class="form-top">
+								<select id="sel1">
+									<option>All Prices</option>
+									<option>$0 to $400,000</option>
+									<option>$400,000 to $600,000</option>
+                  <option>$600,000 to $800,000</option>
+                  <option>$800,000 to $1,000,000</option>
+                  <option>$1,000,000 to $1,500,000</option>
+                  <option>Over $1,500,000</option>
+								  </select>
+								  <select id="sel2">
+									<option>All Sizes</option>
+									<option>0 to 1,000 sqft</option>
+                  <option>1,000 to 2,000 sqft</option>
+                  <option>2,000 to 3,000 sqft</option>
+                  <option>3,000 to 4,000 sqft</option>
+                  <option>Over 4,000 sqft</option>
+								  </select>
+                  <select id="sel3">
+                    <option>All Years</option>
+                    <option>After 2020</option>
+                    <option>2015 to 2020</option>
+                    <option>2010 to 2015</option>
+                    <option>Before 2010</option>
+                  </select>
+                  <select id="sel4">
+                    <option>Toronto</option>
+                  </select>
+                  <select id="sel5">
+                    <option>All Bedrooms</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                  </select>
+                  <select id="sel6">
+                    <option>All Baths</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                  </select>
+							</div>				
+							<button type="submit" class="btn">Submit</button>
+						</form>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section class="locations-1" id="locations">
+  <div class="locations py-5">
+   <div class="container py-md-3">
+      <div class="heading text-center mx-auto">
+          <h3 class="head">Property Map</h3>
+          <p class="my-3 head "> This should be where the map goes.</p>
+        </div>
+
+                      <div class="box16">
+                          <img class="img-fluid" src="assets/images/background.png" alt="">
+                          <div class="box-content">
+
+
+
+                              <div id="map"></div>
+                              <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+                              <script>
+                                  var map = L.map('map').setView([38.00, -97.00], 5);
+                                  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                  }).addTo(map);
+                          
+                                  document.getElementById('searchForm').addEventListener('submit', function(event) {
+                                      event.preventDefault();
+                                      var postalcode = document.getElementById('postalcode').value;
+                                      var minbed = document.getElementById('minbed').value;
+                                      var maxbed = document.getElementById('maxbed').value;
+                                      searchProperty(postalcode,minbed,maxbed);
+                                  });
+                          
+                                  function searchProperty(postalcode,minbed,maxbed) {
+                                      var url = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=' + postalcode + '&page=1&pagesize=10&minBeds='+minbed+'&maxBeds='+ maxbed+'';
+                                      var headers = {
+                                          'accept': 'application/json',
+                                          'apikey': 'a4d324d21df0261bafff9edb48364a25'
+                                      };
+                          
+                                      fetch(url, { headers: headers })
+                                          .then(response => response.json())
+                                          .then(data => {
+                                              // Clear existing markers
+                                              map.eachLayer(function (layer) {
+                                                  if (layer instanceof L.Marker) {
+                                                      map.removeLayer(layer);
+                                                  }
+                                              });
+                                              // Add markers for fetched data
+                                              addMarkers(data);
+                                          })
+                                          .catch(error => console.error('Error:', error));
+                                  }
+                          
+                                  function addMarkers(data) {
+                                      for (var i = 0; i < data.property.length; i++) {
+                                          var property = data.property[i];
+                                          var marker = L.marker([property.location.latitude, property.location.longitude]).addTo(map);
+                                          marker.bindPopup(property.address.oneLine);
+                                      }
+                                  }
+                              </script>
+        </div>                       
+     </div>
+   </section>
+
+
+<section class="grids-4" id="properties">
+    <div id="grids4-block" class="py-5">
+       <div class="container py-md-3">
+			<div class="heading text-center mx-auto">
+      <h3 class="head">Properties For sale</h3>
+      <p class="my-3 head"> List of properties that match your search criteria.</p>
+    </div>
+            <div class="row mt-5 pt-3">
+                <div class="grids4-info  col-lg-4 col-md-6">
+                        <a href="#"><img src="assets/images/g7.jpg" class="img-fluid" alt=""></a>
+                        <ul class="location-top">
+                            <li class="sale">For Sale</li>
+                        </ul>
+                        <div class="info-bg">
+                            <h5><a href="#">Luxury Mansion In Toronto</a></h5>
+                            <p>$ 450,000 </p>
+                            <ul>
+                                <li><span class="fa fa-bed"></span> 4 Beds</li>
+                                <li><span class="fa fa-bath"></span> 3 Baths</li>
+                                <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                            </ul>
+                        </div>
+                    </div>
+                <div class="grids4-info col-lg-4 col-md-6 mt-md-0 mt-5">
+                        <a href="#"><img src="assets/images/g8.jpg" class="img-fluid" alt=""></a>
+                        <ul class="location-top">
+                            <li class="sale">For Sale</li>
+                        </ul>
+                        <div class="info-bg">
+                            <h5><a href="#">Nature-Friendly Family Home</a></h5>
+                            <p>$ 510,350</p>
+                            <ul>
+                                <li><span class="fa fa-bed"></span> 3 Beds</li>
+                                <li><span class="fa fa-bath"></span> 2 Baths</li>
+                                <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                            </ul>
+                        </div>
+                    </div>
+                 <div class="grids4-info col-lg-4 col-md-6 mt-lg-0 mt-5">
+                        <a href="#"><img src="assets/images/g7.jpg" class="img-fluid" alt=""></a>
+                        <ul class="location-top">
+                            <li class="sale">For Sale</li>
+                        </ul>
+                        <div class="info-bg">
+                            <h5><a href="#">House in Hydepark</a></h5>
+                            <p>$ 550,500</p>
+                           <ul>
+                                <li><span class="fa fa-bed"></span> 4 Beds</li>
+                                <li><span class="fa fa-bath"></span> 3 Baths</li>
+                                <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                            </ul>
+                        </div>
+                    </div>
+					 <div class="grids4-info  col-lg-4 col-md-6 mt-5">
+                        <a href="#"><img src="assets/images/g8.jpg" class="img-fluid" alt=""></a>
+                        <ul class="location-top">
+                            <li class="sale">For Sale</li>
+                        </ul>
+                        <div class="info-bg">
+                            <h5><a href="#">House in Scarborough</a></h5>
+                            <p>$ 220,000</p>
+                            <ul>
+                                <li><span class="fa fa-bed"></span> 5 Beds</li>
+                                <li><span class="fa fa-bath"></span> 3 Baths</li>
+                                <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                            </ul>
+                        </div>
+                    </div>
+					 <div class="grids4-info  col-lg-4 col-md-6 mt-5">
+                        <a href="#"><img src="assets/images/g9.jpg" class="img-fluid" alt=""></a>
+                        <ul class="location-top">
+                            <li class="sale">For Sale</li>
+                        </ul>
+                        <div class="info-bg">
+                            <h5><a href="#">Villa in Brampton</a></h5>
+                            <p>$ 150,000</p>
+                            <ul>
+                                <li><span class="fa fa-bed"></span> 2 Beds</li>
+                                <li><span class="fa fa-bath"></span> 1 Baths</li>
+                                <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                            </ul>
+                        </div>
+                    </div>
+					 <div class="grids4-info  col-lg-4 col-md-6 mt-5">
+                        <a href="#"><img src="assets/images/g10.jpg" class="img-fluid" alt=""></a>
+                        <ul class="location-top">
+                            <li class="sale">For Sale</li>
+                        </ul>
+                        <div class="info-bg">
+                            <h5><a href="#">House in York</a></h5>
+                            <p>$ 450,000</p>
+                            <ul>
+                                <li><span class="fa fa-bed"></span> 4 Beds</li>
+                                <li><span class="fa fa-bath"></span> 3 Baths</li>
+                                <li><span class="fa fa-share-square-o"></span> 1200 sq ft</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+    </div>
+</section>
+
+
+</body>
+  
+</html>
