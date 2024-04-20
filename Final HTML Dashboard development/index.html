@@ -38,21 +38,29 @@
 	<div class="form-12-content">
 		<div class="container">
 			<div class="grid grid-column-2 ">
-				<div class="column2">
-                    <h1>Property Search with Leaflet</h1>
-                    <form id="searchForm">
-                        <label for="postalcode">Enter Postal Code:</label>
-                        Postal Code<input type="text" id="postalcode" name="postalcode"><br>
-                        Min Bed<input type="text" id="minbed" name="minbed"><br>
-                        Max Bed<input type="text" id="maxbed" name="maxbed">
-                        <button type="submit">Search</button>
-                    </form>
-					</div>
+				<!-- ... existing HTML above ... -->
+<div class="column2">
+    <h1>Property Search with Leaflet</h1>
+    <form id="searchForm">
+        <div class="input-container">
+            <label for="postalcode" class="form-label"> </label>
+            <input type="text" id="postalcode" name="postalcode" placeholder="Postal Code"><br>
+            
+            <label for="minbed" class="form-label"></label>
+            <input type="text" id="minbed" name="minbed" placeholder="Min Bed"><br>
+            
+            <label for="maxbed" class="form-label"></label>
+            <input type="text" id="maxbed" name="maxbed" placeholder="Max Bed">
+        </div>
+        <button type="submit">Search</button>
+    </form>
+</div>
+<!-- ... existing HTML below ... -->
 				<div class="column1">	
 						<form action="/" method="Get">
 							<div class="blog-search form d-flex search-form">
 								<!-- <input type="search" class="form-control" placeholder="Enter City" name="search" required="required"> -->
-								<button type="submit" class="btn search-btn"><span class="fa fa-search"></span></button>
+								
 							</div>
 							<div class="form-top">
 								<select id="sel1">

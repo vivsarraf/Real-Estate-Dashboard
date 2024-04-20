@@ -16,6 +16,12 @@ Author URL: http://w3layouts.com
   font-weight: normal;
   font-style: normal; }
 
+.form-12-content h1 {
+    color: white;
+    font-weight: bold;
+}
+
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
