@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search with Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map { height: 600px; }
+        #map { width: 1400px; }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Property Search with Leaflet</h1>
+    <form id="searchForm">
+        <label for="postalcode">Enter Postal Code:</label>
+        Postal Code<input type="text" id="postalcode" name="postalcode"><br>
+        Min Bed<input type="text" id="minbed" name="minbed"><br>
+        Max Bed<input type="text" id="maxbed" name="maxbed">
+        <button type="submit">Search</button>
+    </form>
+    <div id="map"></div>
+    <table id="propertyTable">
+        <thead>
+            <tr>
+                <th>Address1</th>
+                <th>Country</th>
+                <th>Postalcode</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <table id="propertyDetails">
+        <thead>
+            <tr>
+                <th>Address</th>
+                <th>Country</th>
+                <th>Postal Code</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([38.00, -97.00], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var postalcode = document.getElementById('postalcode').value;
+            var minbed = document.getElementById('minbed').value;
+            var maxbed = document.getElementById('maxbed').value;
+            
+            var url = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=' + postalcode ;
+            if (minbed) {
+                url += "&minBeds=" + minbed;
+            }
+            if (maxbed) {
+             url += "&maxBeds=" + maxbed;
+            }
+
+
+            var headers = {
+                'accept': 'application/json',
+                'apikey': 'a4d324d21df0261bafff9edb48364a25'
+            };
+
+            fetch(url, { headers: headers })
+                .then(response => response.json())
+                .then(data => {
+                    // Clear existing markers
+                    map.eachLayer(function (layer) {
+                        if (layer instanceof L.Marker) {
+                            map.removeLayer(layer);
+                        }
+                    });
+                    // Add markers for fetched data
+                    addMarkers(data);
+                    displayDataInTable(data);
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        function addMarkers(data) {
+            for (var i = 0; i < data.property.length; i++) {
+                var property = data.property[i];
+                var marker = L.marker([property.location.latitude, property.location.longitude]).addTo(map);
+                marker.bindPopup(property.address.oneLine);
+            }
+        }
+
+        function displayDataInTable(data) {
+            var tbody = document.querySelector('#propertyTable tbody');
+            tbody.innerHTML = ''; // Clear previous data
+            data.property.forEach(property => {
+                var row = tbody.insertRow();
+                var addressCell = row.insertCell(0);
+                var countryCell = row.insertCell(1);
+                var postalcodeCell = row.insertCell(2);
+                addressCell.textContent = property.address.oneLine;
+                countryCell.textContent = property.address.country;
+                postalcodeCell.textContent = property.address.postal1;
+                row.addEventListener('click', function() {
+                    selectRow(this);
+                    displayPropertyDetails(property);
+                });
+            });
+        }
+
+        function selectRow(row) {
+            var rows = document.querySelectorAll('#propertyTable tbody tr');
+            rows.forEach(r => r.classList.remove('selected'));
+            row.classList.add('selected');
+        }
+
+        function displayPropertyDetails(property) {
+            var tbody = document.querySelector('#propertyDetails tbody');
+            tbody.innerHTML = ''; // Clear previous data
+            var row = tbody.insertRow();
+            var addressCell = row.insertCell(0);
+            var countryCell = row.insertCell(1);
+            var postalcodeCell = row.insertCell(2);
+            addressCell.textContent = property.address.oneLine;
+            countryCell.textContent = property.address.country;
+            postalcodeCell.textContent = property.address.postal1;
+        }
+    </script>
+</body>
+</html>
