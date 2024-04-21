@@ -67,7 +67,8 @@ function fetchProperties() {
   fetch('/api/PropertyListings') // Making a request to the server to get properties data
     .then(response => response.json()) // Parses the response as JSON
     .then(data => {
-        addMarkers(data); // Calling function to add markers based on this data
+        addMarkers(data); 
+        displayDataInTable(data);// Calling function to add markers based on this data
     })
     .catch(error => console.error('Error fetching data:', error)); // Logs errors, if any
 }
@@ -192,3 +193,56 @@ document.addEventListener('DOMContentLoaded', removeOverlayLayers);
 
 
 
+function displayDataInTable(data) {
+  var tbody = document.querySelector('#property-table tbody');
+  tbody.innerHTML = ''; // Clear previous data
+  data.forEach(property => {
+      var row = tbody.insertRow();
+      var addressCell = row.insertCell(0);
+      var countryCell = row.insertCell(1);
+      var postalcodeCell = row.insertCell(2);
+      addressCell.textContent = property.address;
+      countryCell.textContent = property.city; // Assuming 'city' is the correct field for country
+      postalcodeCell.textContent = property.postal_code; // Assuming 'postal_code' is the correct field for postal code
+      row.addEventListener('click', function() {
+          selectRow(this);
+          displayPropertyDetails(property);
+      });
+  });
+}
+
+
+function selectRow(row) {
+  var rows = document.querySelectorAll('#propertyTable tbody tr');
+  rows.forEach(r => r.classList.remove('selected'));
+  row.classList.add('selected');
+}
+
+function displayPropertyDetails(property) {
+  var tbody = document.querySelector('#propertyDetails tbody');
+  tbody.innerHTML = ''; // Clear previous data
+  var row = tbody.insertRow();
+  var addressCell = row.insertCell(0);
+  var countryCell = row.insertCell(1);
+  var postalcodeCell = row.insertCell(2);
+
+  var bedroomCell = row.insertCell(3);
+  var bathfullCell = row.insertCell(4);
+  var bathhalfCell = row.insertCell(5);
+
+  var cyearCell = row.insertCell(6);
+  var denCell = row.insertCell(7);
+  
+
+  addressCell.textContent = property.address;
+  countryCell.textContent = property.city;
+  postalcodeCell.textContent = property.postal_code;
+
+  bedroomCell.textContent = property.bedroom;
+  bathfullCell.textContent = property.bathroom_full;
+  bathhalfCell.textContent = property.bathroom_half;
+
+  cyearCell.textContent = property.construction_year;
+  denCell.textContent = property.den;
+ 
+}
