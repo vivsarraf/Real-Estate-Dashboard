@@ -69,13 +69,13 @@ def get_attractions_by_address(address):
     return jsonify(json.loads(json_util.dumps(attractions_list)))
 
 
-@app.route('/api/schools')
-def get_schools():
-    schools = mongo.db.schools_info.find()
-    # Converting MongoDB cursor to a list
-    schools_list = list(schools)
-    # Returning the list as JSON
-    return jsonify(json.loads(json_util.dumps(schools_list)))
+
+
+@app.route('/api/toronto_schools')
+def get_toronto_schools():
+   schools = mongo.db.schools_info.find()
+   return jsonify(list(schools))
+
 
 
 
