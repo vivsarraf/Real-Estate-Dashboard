@@ -33,3 +33,30 @@ html {
   margin-right: 8px;
   opacity: 0.7;
 }
+
+
+#property-table, #propertyDetails {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#property-table th, #property-table td, #propertyDetails th,#propertyDetails td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#property-table tbody, #propertyDetails tbody {
+  display: block;
+  height: 200px; /* Adjust height as needed */
+  overflow-y: auto;
+}
+
+#property-table thead, #property-table tbody tr,#propertyDetails thead,#propertyDetails tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#property-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

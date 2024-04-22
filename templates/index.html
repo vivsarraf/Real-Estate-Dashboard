@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Subway Stations</title>
+  <title>Property Search with Leaflet</title>
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -17,10 +17,54 @@
 </head>
 
 <body>
+  <!-- <form id="searchForm"> -->
+    
+    <!-- <label for="maxprice">Enter the filter criteria for the property listings: </label><br>
+    Max Price<input type="text" id="maxprice" name="maxprice"><br> -->
+    <!-- Min Bed<input type="text" id="minbed" name="minbed"><br>
+    Max Bed<input type="text" id="maxbed" name="maxbed"> -->
+    <!-- <button type="submit">Search</button>
+  </form>
+   -->
+   
+<form id="myForm">  
+  <label>Bedroom:<input id="bedroom" name="bedroom" value=""></label>
+  <!-- <label>Bathroom:<input id="bathroom" name="bathroom" value=""></label> -->
+  <input type="submit" value="Submit">
+</form>
 
   <!-- The div that holds our map -->
   <div id="map"></div>
+  <br><br><br><br><br><br>
+  <table id="property-table">
+    <thead>
+        <tr>
+            <th>Address</th>
+            <th>City</th>
+            <th>Postal Code</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<br><br><br><br><br>
+<table id="propertyDetails">
+  <thead>
+      <tr>
+          <th>Address</th>
+          <th>City</th>
+          <th>Postal Code</th>
 
+          <th>Bedroom</th>
+          <th>Bathroom_full</th>
+          <th>Bathroom_half</th>
+
+          <th>Construction year</th>
+          <th>Den</th>
+        
+      </tr>
+  </thead>
+  <tbody></tbody>
+</table>
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
