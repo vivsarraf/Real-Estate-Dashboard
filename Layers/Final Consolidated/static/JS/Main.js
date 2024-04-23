@@ -205,17 +205,70 @@ function displayDataInTable(data) {
       countryCell.textContent = property.city; // Assuming 'city' is the correct field for country
       postalcodeCell.textContent = property.postal_code; // Assuming 'postal_code' is the correct field for postal code
       row.addEventListener('click', function() {
-          selectRow(this);
+          selectRow(this,property);
           displayPropertyDetails(property);
       });
   });
 }
 
 
-function selectRow(row) {
+
+function selectRow(row,property) {
   var rows = document.querySelectorAll('#propertyTable tbody tr');
   rows.forEach(r => r.classList.remove('selected'));
   row.classList.add('selected');
+
+
+  var selectedProperty = property;
+
+  
+     console.log("Selected property:", property);
+   
+    map.eachLayer(function (layer) {
+      if (layer instanceof L.Marker) {
+          var markerProperty = layer.getLatLng();
+          if (Math.abs(markerProperty.lat - selectedProperty.latitude) < 0.0001 &&
+              Math.abs(markerProperty.lng - selectedProperty.longitude) < 0.0001) {
+             
+              layer.setIcon(L.icon({
+                  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png', 
+                  iconSize: [25, 41],
+                  iconAnchor: [12, 41],
+                  popupAnchor: [1, -34],
+                  
+              }));
+          }
+      }
+  });
+  
+
+ 
+}
+function selectRow1(row) {
+  var rows = document.querySelectorAll('#propertyTable tbody tr');
+  rows.forEach(r => r.classList.remove('selected'));
+  row.classList.add('selected');
+  
+    // Get the selected property
+    var selectedPropertyIndex = Array.from(rows).indexOf(row);
+    var selectedProperty = data.property[selectedPropertyIndex];
+
+    // Find and update the corresponding marker
+    map.eachLayer(function (layer) {
+        if (layer instanceof L.Marker) {
+            var markerProperty = layer.getLatLng();
+            if (Math.abs(markerProperty.lat - selectedProperty.location.latitude) < 0.0001 &&
+                Math.abs(markerProperty.lng - selectedProperty.location.longitude) < 0.0001) {
+                // Change marker color by updating the icon
+                layer.setIcon(L.icon({
+                    iconUrl: 'http://leafletjs.com/examples/custom-icons/leaf-red.png', // Change marker color here
+                    iconSize: [38, 95],
+                    iconAnchor: [22, 94],
+                    popupAnchor: [-3, -76]
+                }));
+            }
+        }
+    });
 }
 
 function displayPropertyDetails(property) {
