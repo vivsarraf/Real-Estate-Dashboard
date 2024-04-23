@@ -32,13 +32,14 @@ def get_PropertyListings():
     # Returning the list as JSON
     return jsonify(json.loads(json_util.dumps(properties_list)))
 
-
-#     # Fetching all property information from collection in the database
-#    PropertyListings = mongo.db.property_listings_info.find()
-#     # Converting MongoDB cursor to a list
-#    properties_list = list(PropertyListings)
-#     # Returning the list as JSON
-#    return jsonify(json.loads(json_util.dumps(properties_list)))
+@app.route('/api/AllPropertyListings')
+def get_AllPropertyListings():
+    # Fetching all property information from collection in the database
+   PropertyListings = mongo.db.property_listings_info.find()
+    # Converting MongoDB cursor to a list
+   properties_list = list(PropertyListings)
+    # Returning the list as JSON
+   return jsonify(json.loads(json_util.dumps(properties_list)))
 
     #     # what happens after form is submitted
     # if request.method == "POST":

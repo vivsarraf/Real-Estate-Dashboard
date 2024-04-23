@@ -7,7 +7,8 @@ let layers = {
   Stations: new L.LayerGroup(),
   Attractions: new L.LayerGroup(),
   Schools: new L.LayerGroup(),
-  Properties: new L.LayerGroup() 
+  Properties: new L.LayerGroup(), 
+  AllProperties: new L.LayerGroup() 
 };
 
 // Add a base layer of the map from OpenStreetMap
@@ -33,7 +34,8 @@ let map = L.map("map", {
     streetmap,
     layers.Stations,
     layers.Attractions,
-    layers.Schools
+    layers.Schools,
+    layers.AllProperties
   ]
 });
 // Add the streetmap to our map.
@@ -43,7 +45,8 @@ streetmap.addTo(map);
 let overlays = {
   "Stations": layers.Stations,
   "Attractions": layers.Attractions,
-  "Schools": layers.Schools
+  "Schools": layers.Schools,
+  "All Properties": layers.AllProperties
 };
 // Add the layer control to our map.
 L.control.layers(baseMaps, overlays).addTo(map);
@@ -70,6 +73,7 @@ var purpleIcon = new L.Icon({
   popupAnchor: [1, -34],
   shadowSize: [41, 41]
 });
+
 
 // Create a green marker to be used for the ttc subway stations' markers. 
 // Defined properties include icon image, shadow image, size, anchor point, popup size when selected, and shadow size. 
@@ -136,6 +140,27 @@ function addPropertyMarkers(data) {
 
     // Add the property information to be shown in the pop-up when a marker is clicked
     marker.bindPopup("<b>" + "Address: " + "</b>" + property.address + "<br>" + "<b>" + "City: " + "</b>" + property.city + "<br>" + "<b>" + "Bedrooms: " + "</b>" + property.bedroom + 
+                    "<br>" + "<b>" + "Price: " + "</b>" + property.estimate_list_price + "<br>" + "<b>" + "Construction Year: " + "</b>" + property.construction_year);
+  }
+}
+
+// Function to fetch properties and add them to the map
+function fetchAllProperties() {
+  fetch('/api/AllPropertyListings') // Making a request to the server to get properties data
+    .then(response => response.json()) // Parses the response as JSON
+    .then(data => {
+        addAllPropertyMarkers(data); // Calling function to add markers based on this data
+    })
+    .catch(error => console.error('Error fetching data:', error)); // Logs errors, if any
+}
+
+function addAllPropertyMarkers(data) {
+  for (var i = 0; i < data.length; i++) {
+    var property = data[i];
+    var lat = property.latitude; // Extract latitude from the data
+    var long = property.longitude; // Extract longitude from the data
+    var propertyMarker = L.marker([lat, long],{icon: purpleIcon}).addTo(layers.AllProperties); 
+    propertyMarker.bindPopup("<b>" + "Address: " + "</b>" + property.address + "<br>" + "<b>" + "City: " + "</b>" + property.city + "<br>" + "<b>" + "Bedrooms: " + "</b>" + property.bedroom + 
                     "<br>" + "<b>" + "Price: " + "</b>" + property.estimate_list_price + "<br>" + "<b>" + "Construction Year: " + "</b>" + property.construction_year);
   }
 }
@@ -259,6 +284,9 @@ map.on('overlayadd', function (eventLayer) {
   if (eventLayer.name === 'Attractions') {
     fetchAttractions();
   }
+  if (eventLayer.name === 'All Properties') {
+    fetchAllProperties();
+  }
 });
 
 // Call the properties function to load the properties upon initial load
@@ -296,11 +324,15 @@ function displayDataInTable(data) {
 }
 
 
+var previousSelected = null;
 function selectRow(row,property) {
   resetMarker();
   var rows = document.querySelectorAll('#propertyTable tbody tr');
   rows.forEach(r => r.classList.remove('selected'));
   row.classList.add('selected');
+  if (previousSelected !== null) {
+    resetMarker(previousSelected);
+}
   var selectedProperty = property;
     console.log("Selected property:", property);
     map.eachLayer(function (layer) {
@@ -314,22 +346,21 @@ function selectRow(row,property) {
                   iconAnchor: [12, 41],
                   popupAnchor: [1, -34],
               }));
+              previousSelected = layer;
           }
       }
   });
 }
-function resetMarker(){
-  map.eachLayer(function (layer) {
-    if (layer instanceof L.Marker) {
-            layer.setIcon(L.icon({
+function resetMarker(marker){
+  if (marker !== undefined && marker !== null) {
+    // Assuming the default marker icon URL is 'blue_marker.png'
+    marker.setIcon(L.icon({
                 iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
             }));
-        }
-    }
-);
+  }
 }
 
 function displayPropertyDetails(property) {
