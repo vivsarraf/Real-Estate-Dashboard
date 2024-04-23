@@ -1,7 +1,7 @@
 # Toronto Property Search Dashboard
 
 ## Overview
-The goal of this project is to provide users with an interactive HTML dashboard that provides immediate access to detailed Toronto property information, and local areas of interest such as attractions, schools, and subway stations. It includes several overlay maps with a toggle menu, and a text filter search allowing users to filter the property data by the minimum number of bedrooms desired to be returned in the map and table results. 
+The goal of this project is to provide users with an interactive HTML dashboard that provides immediate access to detailed Toronto property information, and local areas of interest such as attractions, schools, and subway stations. It includes several overlay maps with a toggle menu, and a text filter search allowing users to filter the property data by the minimum number of bedrooms to be returned on the map and in the table results. 
 
 The contents of the repo are outlined below:
 ```
@@ -14,11 +14,11 @@ The contents of the repo are outlined below:
 |   ├── data.json                                           # Raw Toronto property information presented in json format
 |   ├── toronto-schools.csv                                 # Raw Toronto school information presented in csv format
 |   ├── toronto-schools.json                                # Raw Toronto school information presented in json format
-|   ├── TTC Subway Stations.xlsx                            # Raw TTC subway stations information presented in excel format
+|   └── TTC Subway Stations.xlsx                            # Raw TTC subway stations information presented in excel format
 ├── static
-|   ├── css         
+|   └── css         
 |       └──  style.css                                      # Css file used for styling the html dashboard
-|   ├── JS  
+|   └── JS  
 |       └──  Main.js                                        # JavaScript logic for connecting to the Flask App, creating the maps, and populating the tables                 
 ├── templates
 |   └── index.html                                          # Html template for rendering user dashboard with form, table, and maps
@@ -26,7 +26,7 @@ The contents of the repo are outlined below:
 ├── Architecture - Toronto Property Listing Dashboard.png   # PNG image about project architecture
 ├── Data Cleaning and MongoDB Import.ipynb                  # Jupyter ntoebook file used for importing data and cleaning before MongoDB creation
 ├── README.md                                               # README file describing purpose, repo contents, setup requirements, and architecture of the project
-├── requirements.txt                                        # List of required libraries to install for app to work
+└── requirements.txt                                        # List of required libraries to install for app to work
 ```
 
 
