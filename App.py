@@ -16,22 +16,22 @@ mongo = PyMongo(app)
 def index():
     return render_template("index.html")
 
+# Defining a route to load the property Listings for bedroom filters
 @app.route('/api/PropertyListings', methods=['GET', 'POST'])
 def get_PropertyListings():
     PropertyListings = mongo.db.property_listings_info.find()
     if request.method == 'POST':
         PropertyListings = mongo.db.property_listings_info.find(request.json)
         print(request.json['bedroom'])
-        # , 'bathroom_full'
+      
     else:
-        print("Get")
-    # Fetching all property information from collection in the database
-    
+        print("Get")     
     # Converting MongoDB cursor to a list
     properties_list = list(PropertyListings)
     # Returning the list as JSON
     return jsonify(json.loads(json_util.dumps(properties_list)))
 
+# Defining a route to Fetch all property information from the collection in the database
 @app.route('/api/AllPropertyListings')
 def get_AllPropertyListings():
     # Fetching all property information from collection in the database
@@ -39,33 +39,9 @@ def get_AllPropertyListings():
     # Converting MongoDB cursor to a list
    properties_list = list(PropertyListings)
     # Returning the list as JSON
-   return jsonify(json.loads(json_util.dumps(properties_list)))
+   return jsonify(json.loads(json_util.dumps(properties_list)))    
 
-    #     # what happens after form is submitted
-    # if request.method == "POST":
-    # # getting input with name = fname in HTML form
-    #     bedroom = int(request.form["bedroom"])
-    #     price = int(request.form["Mprice"])
-    #     # Fetching all property information from collection in the database
-    #     PropertyListings = mongo.db.property_listings_info.find({
-    #         'construction_year': 1978, 
-    #         'bedroom': {'$gte': bedroom}, 
-    #         'estimate_list_price': {'$lte': price}})
-    #     # Converting MongoDB cursor to a list
-    #     properties_list = list(PropertyListings)
-    #     # Returning the list as JSON
-    #     return jsonify(json.loads(json_util.dumps(properties_list))),render_template("index.html")
-    
-    # #before form is submitted
-    # if request.method == "GET":
-    #     # Fetching all property information from collection in the database
-    #     PropertyListings = mongo.db.property_listings_info.find()
-    #     # Converting MongoDB cursor to a list
-    #     properties_list = list(PropertyListings)
-    #     # Returning the list as JSON
-    #     return jsonify(json.loads(json_util.dumps(properties_list)))
-
-
+# Defining a route to get to all the attractions   
 @app.route('/api/attractions')
 def get_attractions():
     # Fetching all attractions from the 'attractions' collection in the database
@@ -94,12 +70,14 @@ def get_attractions_by_name(name):
     attractions_list = list(attractions)
     return jsonify(json.loads(json_util.dumps(attractions_list)))
 
+# Defining a route to get attractions by postal code
 @app.route('/api/attractions/postalcode/<postalcode>')
 def get_attractions_by_postalcode(postalcode):
     attractions = mongo.db.attractions_info.find({'properties.POSTAL_CODE': postalcode})
     attractions_list = list(attractions)
     return jsonify(json.loads(json_util.dumps(attractions_list)))
 
+# Defining a route to get attractions by address
 @app.route('/api/attractions/address/<address>')
 def get_attractions_by_address(address):
     regex_query = regex.Regex('^' + re.escape(address) + '$', 'i')
@@ -107,17 +85,13 @@ def get_attractions_by_address(address):
     attractions_list = list(attractions)
     return jsonify(json.loads(json_util.dumps(attractions_list)))
 
-
-
-
+# Defining a route to get all Toronto schools
 @app.route('/api/toronto_schools')
 def get_toronto_schools():
    schools = mongo.db.schools_info.find()
    return jsonify(list(schools))
 
-
-
-
+# Defining a route to get all Toronto subway stations
 @app.route('/api/subway_stations')
 def get_subwaystations():
     stations = mongo.db.subway_stations_info.find()
