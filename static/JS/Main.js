@@ -1,7 +1,3 @@
-function create_map(){
-
-}
-
 // Initialize all the LayerGroups that we'll use. 4 total, 1 each for Stations, Attractions, Schools, and Properties. 
 let layers = {
   Stations: new L.LayerGroup(),
@@ -112,17 +108,16 @@ function fetchProperties(filters) {
     .catch(error => console.error('Error fetching data:', error)); 
 }
 
-
-
-
+// Create a global markers array for use in the below function to reset the markers whenever the property results filter critera is changed
 var markers = [];
 
 // Create function to add Property markers based on the data fetched from the Flask App
 function addPropertyMarkers(data) {
-  // loop through existing markets and remove
+  // Loop through existing markets and remove
   for (var i=0; i<markers.length; i++) {
     map.removeLayer(markers[i]);
   }
+  // Initialize the markers array after it's been reset
   markers = []
   // Loop through each item in the JSON data
   for (var i = 0; i < data.length; i++) {
@@ -135,9 +130,8 @@ function addPropertyMarkers(data) {
     // Create a marker based on the latitude and longitude variables, 
     // Set the icon to the purple marker created above, and add the marker to the map
     var marker = L.marker([lat, long],{icon: purpleIcon}).addTo(map);
-
+    // Add the markers to the markers array 
     markers.push(marker);
-
     // Add the property information to be shown in the pop-up when a marker is clicked
     marker.bindPopup("<b>" + "Address: " + "</b>" + property.address + "<br>" + "<b>" + "City: " + "</b>" + property.city + "<br>" + "<b>" + "Bedrooms: " + "</b>" + property.bedroom + 
                     "<br>" + "<b>" + "Price: " + "</b>" + property.estimate_list_price + "<br>" + "<b>" + "Construction Year: " + "</b>" + property.construction_year);
@@ -146,19 +140,32 @@ function addPropertyMarkers(data) {
 
 // Function to fetch properties and add them to the map
 function fetchAllProperties() {
-  fetch('/api/AllPropertyListings') // Making a request to the server to get properties data
-    .then(response => response.json()) // Parses the response as JSON
+  // Make a request to the Flask server to get all properties data
+  fetch('/api/AllPropertyListings')
+    // Parse the response as JSON
+    .then(response => response.json()) 
     .then(data => {
-        addAllPropertyMarkers(data); // Calling function to add markers based on this data
+      // Call the function to add markers for the properties data
+      addAllPropertyMarkers(data); 
     })
-    .catch(error => console.error('Error fetching data:', error)); // Logs errors, if any
+    // Logs errors, if any
+    .catch(error => console.error('Error fetching data:', error)); 
 }
 
+// Create function to add property markers based on the data fetched from the Flask App
 function addAllPropertyMarkers(data) {
+  // Loop through each item in the JSON data
   for (var i = 0; i < data.length; i++) {
+    // Assign the item to a variable
     var property = data[i];
-    var lat = property.latitude; // Extract latitude from the data
-    var long = property.longitude; // Extract longitude from the data
+    // Extract the latitude from the property information and assign it to a variable
+    var lat = property.latitude; 
+    // Extract the longitude from the property information and assign it to a variable
+    var long = property.longitude;
+    // Create a marker based on the latitude and longitude variables, 
+    // Set the icon to the purple marker created above, and
+    // Add the property information to be shown in the pop-up when a marker is clicked
+    // Add the markers to the All Properties layer
     var propertyMarker = L.marker([lat, long],{icon: purpleIcon}).addTo(layers.AllProperties); 
     propertyMarker.bindPopup("<b>" + "Address: " + "</b>" + property.address + "<br>" + "<b>" + "City: " + "</b>" + property.city + "<br>" + "<b>" + "Bedrooms: " + "</b>" + property.bedroom + 
                     "<br>" + "<b>" + "Price: " + "</b>" + property.estimate_list_price + "<br>" + "<b>" + "Construction Year: " + "</b>" + property.construction_year);
@@ -272,7 +279,7 @@ function getPopupContent(properties) {
           <a href="${properties.WEBSITE}" target="_blank">Website</a>`;
 }
 
-// Create a function to add the 3 layers (Schools, Stations, and Attractions) 
+// Create a function to add the 4 layers (Schools, Stations, Attractions, and All Properties) 
 // by calling their respective functions
 map.on('overlayadd', function (eventLayer) {
   if (eventLayer.name === 'Schools') {
@@ -289,7 +296,7 @@ map.on('overlayadd', function (eventLayer) {
   }
 });
 
-// Call the properties function to load the properties upon initial load
+// Call the properties function upon initial load
 document.addEventListener('DOMContentLoaded', fetchProperties);
 
 // Create a function to remove the overlays so only the properties are shown upon initial load
@@ -302,20 +309,23 @@ function removeOverlayLayers() {
 // Call the function to remove overlay layers when the DOM content is loaded
 document.addEventListener('DOMContentLoaded', removeOverlayLayers);
 
-
-
-
+// Create a function to display the property data in the table based on the filter criteria
 function displayDataInTable(data) {
+  // Select the table element from the HTML file
   var tbody = document.querySelector('#property-table tbody');
-  tbody.innerHTML = ''; // Clear previous data
+  // Clear previous data
+  tbody.innerHTML = ''; 
+  // Populate the table information
   data.forEach(property => {
       var row = tbody.insertRow();
       var addressCell = row.insertCell(0);
       var countryCell = row.insertCell(1);
       var postalcodeCell = row.insertCell(2);
+      // Populate the table with the property information
       addressCell.textContent = property.address;
-      countryCell.textContent = property.city; // Assuming 'city' is the correct field for country
-      postalcodeCell.textContent = property.postal_code; // Assuming 'postal_code' is the correct field for postal code
+      countryCell.textContent = property.city;
+      postalcodeCell.textContent = property.postal_code;
+      // Call the functions to display additional information based on the clicked row
       row.addEventListener('click', function() {
           selectRow(this,property);
           displayPropertyDetails(property);
@@ -323,16 +333,21 @@ function displayDataInTable(data) {
   });
 }
 
-
+// Create a variable to see if a previous row was selected in order to reset the selection
 var previousSelected = null;
+// Create a function to identify the selected row and show the marker on the map
 function selectRow(row,property) {
+  // Reset the previous marker change
   resetMarker();
+  // Select the table element from the HTML file
   var rows = document.querySelectorAll('#propertyTable tbody tr');
+  // Reset the previous selection if applicable
   rows.forEach(r => r.classList.remove('selected'));
   row.classList.add('selected');
   if (previousSelected !== null) {
     resetMarker(previousSelected);
 }
+  // Change the colour of the marker of the selected property on the map
   var selectedProperty = property;
     console.log("Selected property:", property);
     map.eachLayer(function (layer) {
@@ -351,9 +366,11 @@ function selectRow(row,property) {
       }
   });
 }
+
+// Create a function to reset the marker colour of a previously selected row back to purple for properties
 function resetMarker(marker){
   if (marker !== undefined && marker !== null) {
-    // Assuming the default marker icon URL is 'blue_marker.png'
+    // Changing to reset colour to purple to represent properties
     marker.setIcon(L.icon({
                 iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
                 iconSize: [25, 41],
@@ -363,6 +380,7 @@ function resetMarker(marker){
   }
 }
 
+// Create a function to display additional property information based on the selected row
 function displayPropertyDetails(property) {
   var tbody = document.querySelector('#propertyDetails tbody');
   tbody.innerHTML = ''; // Clear previous data
@@ -370,36 +388,30 @@ function displayPropertyDetails(property) {
   var addressCell = row.insertCell(0);
   var countryCell = row.insertCell(1);
   var postalcodeCell = row.insertCell(2);
-
   var bedroomCell = row.insertCell(3);
   var bathfullCell = row.insertCell(4);
   var bathhalfCell = row.insertCell(5);
-
   var cyearCell = row.insertCell(6);
   var denCell = row.insertCell(7);
-  
-
+  // Populate the table with the property information
   addressCell.textContent = property.address;
   countryCell.textContent = property.city;
   postalcodeCell.textContent = property.postal_code;
-
   bedroomCell.textContent = property.bedroom;
   bathfullCell.textContent = property.bathroom_full;
   bathhalfCell.textContent = property.bathroom_half;
-
   cyearCell.textContent = property.construction_year;
   denCell.textContent = property.den;
- 
 }
 
+// Create a function to get form data from the HTML form element
 function getData(form) {
   var formData = new FormData(form);
-
+  // Call the function to get property information based on the HTML form filter
   fetchProperties(Object.fromEntries(formData));
-
-  // console.log(Object.fromEntries(formData));
 }
 
+// Get the data by calling the function when the submit button is clicked
 document.getElementById("myForm").addEventListener("submit", function (e) {
   e.preventDefault();
   getData(e.target);
