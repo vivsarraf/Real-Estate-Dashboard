@@ -93,7 +93,8 @@ function fetchProperties(filters) {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({'bedroom': parseInt(filters["bedroom"])})
+    body: JSON.stringify({'bedroom': {'$gte': parseInt(filters["bedroom"])}})
+    // 'bathroom_full': {'$gte': parseInt(filters["bathroom_full"])}
   }) 
     // Parse the response as JSON
     .then(response => response.json()) 

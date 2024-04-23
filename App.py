@@ -22,6 +22,7 @@ def get_PropertyListings():
     if request.method == 'POST':
         PropertyListings = mongo.db.property_listings_info.find(request.json)
         print(request.json['bedroom'])
+        # , 'bathroom_full'
     else:
         print("Get")
     # Fetching all property information from collection in the database
