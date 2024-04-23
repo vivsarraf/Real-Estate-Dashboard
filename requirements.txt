@@ -1,0 +1,6 @@
+flask==2.2.5
+flask-pymongo==2.3.0
+pymongo==4.6.2
+pandas==2.1.4
+regex==2023.10.3
+requests==2.31.0 
