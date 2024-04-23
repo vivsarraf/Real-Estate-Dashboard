@@ -24,7 +24,7 @@ let baseMaps = {
 // Create the map with our layers.
 let map = L.map("map", {
   //Center around Toronto and set zoom
-  center: [43.73, -79.3832],
+  center: [43.70, -79.3832],
   zoom: 11.5,
   layers: [
     streetmap,
