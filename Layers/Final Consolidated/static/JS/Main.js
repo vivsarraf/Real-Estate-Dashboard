@@ -211,18 +211,23 @@ function displayDataInTable(data) {
   });
 }
 
-
+var previousSelected = null;
 
 function selectRow(row,property) {
+
+  resetMarker();
   var rows = document.querySelectorAll('#propertyTable tbody tr');
   rows.forEach(r => r.classList.remove('selected'));
   row.classList.add('selected');
 
+  if (previousSelected !== null) {
+    resetMarker(previousSelected);
+}
 
   var selectedProperty = property;
 
   
-     console.log("Selected property:", property);
+    console.log("Selected property:", property);
    
     map.eachLayer(function (layer) {
       if (layer instanceof L.Marker) {
@@ -237,39 +242,28 @@ function selectRow(row,property) {
                   popupAnchor: [1, -34],
                   
               }));
+              previousSelected = layer;
           }
       }
   });
-  
 
  
 }
-function selectRow1(row) {
-  var rows = document.querySelectorAll('#propertyTable tbody tr');
-  rows.forEach(r => r.classList.remove('selected'));
-  row.classList.add('selected');
-  
-    // Get the selected property
-    var selectedPropertyIndex = Array.from(rows).indexOf(row);
-    var selectedProperty = data.property[selectedPropertyIndex];
 
-    // Find and update the corresponding marker
-    map.eachLayer(function (layer) {
-        if (layer instanceof L.Marker) {
-            var markerProperty = layer.getLatLng();
-            if (Math.abs(markerProperty.lat - selectedProperty.location.latitude) < 0.0001 &&
-                Math.abs(markerProperty.lng - selectedProperty.location.longitude) < 0.0001) {
-                // Change marker color by updating the icon
-                layer.setIcon(L.icon({
-                    iconUrl: 'http://leafletjs.com/examples/custom-icons/leaf-red.png', // Change marker color here
-                    iconSize: [38, 95],
-                    iconAnchor: [22, 94],
-                    popupAnchor: [-3, -76]
-                }));
-            }
+function resetMarker(marker){
+     
+  if (marker !== undefined && marker !== null) {
+    // Assuming the default marker icon URL is 'blue_marker.png'
+    marker.setIcon(L.icon({
+                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png', 
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                
+            }));
         }
-    });
-}
+      }
+
 
 function displayPropertyDetails(property) {
   var tbody = document.querySelector('#propertyDetails tbody');
