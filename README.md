@@ -51,8 +51,8 @@ In developing the Toronto Property Search Dashboard, we have prioritized privacy
 
 ## Data Sources
 
-CSV Files for Schools and Attractions - Taken from <a href= "https://open.toronto.ca/catalogue/">  City of Toronto Open Data</a>.
+CSV Files for Schools and Attractions - taken from <a href= "https://open.toronto.ca/catalogue/">  City of Toronto Open Data</a>.
 
-Property Information API - Taken from <a href= "https://www.houski.ca/api-documentation">  Houski API</a>.
+Property Information API - taken from <a href= "https://www.houski.ca/api-documentation">  Houski API</a>.
 
-CSV Files for Subway Stations - Created manually by the team
+CSV Files for Subway Stations - created manually by the team
