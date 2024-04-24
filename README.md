@@ -44,3 +44,7 @@ Execute 'pip install -r requirements.txt' to install all the packages within the
 
 ## Project Architecture
 ![Architecture - Toronto Property Listing Dashboard](<Architecture - Toronto Property Listing Dashboard.png>)
+
+## Data Ethics
+
+In developing the Toronto Property Search Dashboard, we have prioritized privacy and legality. The data sources, such as the Houski API, provide anonymized information, ensuring that no private data about individuals is shared or can be traced back to any individual. This protects user privacy. Additionally, all the data we use is open and free from copyright restrictions, as per our agreements with the providers. This allows us to operate within legal bounds and assures users of the safety and ethical integrity of our dashboard.
