@@ -48,3 +48,9 @@ Execute 'pip install -r requirements.txt' to install all the packages within the
 ## Data Ethics
 
 In developing the Toronto Property Search Dashboard, we have prioritized privacy and legality. The data sources, such as the Houski API, provide anonymized information, ensuring that no private data about individuals is shared or can be traced back to any individual. This protects user privacy. Additionally, all the data we use is open and free from copyright restrictions, as per our agreements with the providers. This allows us to operate within legal bounds and assures users of the safety and ethical integrity of our dashboard.
+
+## Data Sources
+
+CSV Files for Schools and Attractions - Taken from <a href= "https://open.toronto.ca/catalogue/">  City of Toronto Open Data</a>.
+Property Information API - Taken from <a href= "https://www.houski.ca/api-documentation">  Houski API</a>.
+CSV Files for Subway Stations - Created manually by the team
