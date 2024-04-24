@@ -6,7 +6,7 @@ The goal of this project is to provide users with an interactive HTML dashboard 
 The contents of the repo are outlined below:
 ```
 .
-├── static
+├── Data
 |   ├── Attractions.geojson                                 # Raw Toronto attractions data presented in geojson format
 |   ├── attractions.json                                    # Raw Toronto attractions data presented in json format
 |   ├── Cleaned_Attractions.csv                             # Cleaned Toronto attractions data presented in csv format
